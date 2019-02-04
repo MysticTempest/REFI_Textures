@@ -1,0 +1,3 @@
+REFI_Textures - [16px]
+Attempts to recapture the aesthetic of Minecraft, while improving upon visibility.
+Usable in Mintest Game v5.0, and MineClone2.
