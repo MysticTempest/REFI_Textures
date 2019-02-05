@@ -3,7 +3,7 @@ REFI_Textures:
 ------------------------------
 
 Textures created from scratch in an attempt to recapture the aesthetic of Minecraft.
-This version of the REFI_Texture pack is for MineClone2.
+This version is usable in both Minetest Game v5.0 and MineClone2.
 
 
 
