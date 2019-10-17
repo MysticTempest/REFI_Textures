@@ -3,6 +3,21 @@ farming:dry_soil_wet all farming_dry_soil_wet.png
 
 
 
+mesecons_detector:object_detector_off top mesecons_switch_side.png
+mesecons_detector:object_detector_off bottom mesecons_switch_side.png
+mesecons_detector:object_detector_on top mesecons_switch_side.png
+mesecons_detector:object_detector_on bottom mesecons_switch_side.png
+
+mesecons_detector:node_detector_off top mesecons_switch_side.png
+mesecons_detector:node_detector_off bottom mesecons_switch_side.png
+mesecons_detector:node_detector_off left mesecons_switch_side.png
+mesecons_detector:node_detector_off right mesecons_switch_side.png
+mesecons_detector:node_detector_off back mesecons_switch_side.png
+mesecons_detector:node_detector_on top mesecons_switch_side.png
+mesecons_detector:node_detector_on bottom mesecons_switch_side.png
+mesecons_detector:node_detector_on left mesecons_switch_side.png
+mesecons_detector:node_detector_on right mesecons_switch_side.png
+mesecons_detector:node_detector_on back mesecons_switch_side.png
 
 mesecons_movestones:sticky_movestone top jeija_movestone_side.png^(mesecons_glue.png^[opacity:127)
 mesecons_movestones:sticky_movestone bottom jeija_movestone_side.png^(mesecons_glue.png^[opacity:127)
