@@ -1,6 +1,6 @@
 farming:dry_soil all farming_dry_soil.png
 farming:dry_soil_wet all farming_dry_soil_wet.png
-
+tame_nodes:dry_soil all farming_dry_soil.png
 
 
 mesecons_detector:object_detector_off top mesecons_switch_side.png
@@ -41,3 +41,11 @@ tinkering:pattern_table top tinkering_pattern_table_top.png
 tinkering:tool_station top tinkering_tool_station_top.png
 
 
+
+bees:extractor front bees_extractor.png
+bees:extractor top bees_extractor_front.png^[verticalframe:3]
+bees:hive_artificial left bees_side.png
+bees:hive_artificial right bees_side.png
+bees:hive_artificial back bees_side.png
+bees:hive_artificial top bees_top.png
+bees:hive_wild all wild_hive.png
