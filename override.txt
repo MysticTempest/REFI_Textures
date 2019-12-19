@@ -49,3 +49,21 @@ bees:hive_artificial right bees_side.png
 bees:hive_artificial back bees_side.png
 bees:hive_artificial top bees_top.png
 bees:hive_wild all wild_hive.png
+
+
+
+farming:carrot_1 sides farming_carrot_1.png
+farming:carrot_2 sides farming_carrot_1.png
+farming:carrot_3 sides farming_carrot_2.png
+farming:carrot_4 sides farming_carrot_2.png
+farming:carrot_5 sides farming_carrot_2.png
+farming:carrot_6 sides farming_carrot_3.png
+farming:carrot_7 sides farming_carrot_3.png
+farming:carrot_8 sides farming_carrot_4.png
+
+
+mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
+mcl_ocean:kelp_sand all default_sand.png^sea_decor_node_grass.png
+mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
+mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
+
