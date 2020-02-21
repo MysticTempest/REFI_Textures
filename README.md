@@ -16,7 +16,7 @@ It may be sub-divided further in the future, but for now you can easily move the
 *	Partial support for the game, SkyFactory. 
 *	Partial support for the mods used by mcimport in converted worlds.
 *	Some templates for character skin creation.
-*	Support for a few Minetest Game mods(currently: 3d_armor, bees, caverealms, hbhunger, mobs_redo, shop, simple_robots, stamina, thirsty)
+*	Support for a few Minetest Game mods(currently: 3d_armor, bakedclay, bees, caverealms, hbhunger, mobs_redo, shop, simple_robots, stamina, thirsty)
 
 
 =================================
