@@ -67,3 +67,6 @@ mcl_ocean:kelp_sand all default_sand.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
+
+mesecons_lightstone:lightstone_off all redstone_lamp_off.png
+mesecons_lightstone:lightstone_on all redstone_lamp_on.png
