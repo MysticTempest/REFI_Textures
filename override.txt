@@ -70,3 +70,5 @@ mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
 mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
+
+pipeworks:trashcan top pipeworks_trashcan_top.png
