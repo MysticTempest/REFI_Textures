@@ -12,10 +12,40 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
 
 
 **Also included in this package is the following:**
-*	Partial support for the game, SkyFactory. 
-*	Partial support for the mods used by mcimport in converted worlds.
+*	Partial support for the game, SkyFactory.  
+    * bonemeal  
+    * elepower  
+    * farming(_redo)  
+    * fromscratch  
+    * melterns
+*	Partial support for the mods used by mcimport in converted worlds.  
+    * basic_materials  
+    * bedrock  
+    * crops  
+    * flowerpot  
+    * hardenedclay  
+    * lapis  
+    * mesecons  
+    * nether  
+    * quartz  
+    * signs_lib  
+    * vines  
+    * xdecor
 *	Some templates for character skin creation.
-*	Support for a few Minetest Game mods(currently: 3d_armor, bakedclay, bees, caverealms, elevators, hbhunger, mobs_redo, pipeworks, shop, simple_robots, stamina, thirsty)
+*	Support for a few Minetest Game mods.  
+    * 3d_armor  
+    * bakedclay  
+    * bees  
+    * caverealms  
+    * elevators  
+    * hbhunger  
+    * mobs_redo  
+    * new_fireworks  
+    * pipeworks  
+    * shop  
+    * simple_robots  
+    * stamina  
+    * thirsty
 
 
 =================================
