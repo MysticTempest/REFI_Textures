@@ -2,13 +2,15 @@
 REFI_Textures:
 ------------------------------
 
-Textures created from scratch in an attempt to recapture the aesthetic of Minecraft.
+A 16px texture pack.  
+These textures were created from scratch in an attempt to recapture the aesthetic of Minecraft, while improving upon visibility.  
 This version is usable in both Minetest Game v5.x and MineClone2.
+
 
 ------------------------------
 
+The 'textures' sub-folder now holds the supported textures for Minetest Game, and MineClone2  
 
-The 'textures' sub-folder now holds the supported textures for Minetest Game, and MineClone2.
 
 
 **Also included in this package is the following:**
@@ -37,6 +39,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * bakedclay  
     * bees  
     * caverealms  
+    * digilines  
     * elevators  
     * hbhunger  
     * mobs_redo  
