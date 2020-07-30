@@ -1,0 +1,68 @@
+REM Windows
+REM Batch script for moving, and renaming dark theme textures for use in-game.
+REM Made in Wine on Linux.
+
+
+mkdir REFI_dark_theme\mcimport_mods\xdecor
+mkdir REFI_dark_theme\textures\default_mcl_core\gui_hud
+mkdir REFI_dark_theme\textures\HUD
+mkdir REFI_dark_theme\textures\mcl_inventory
+
+cd REFI_dark_theme\
+
+copy dark_theme_ench_ui.png mcimport_mods\xdecor\
+copy dark_theme_mese_layout.png mcimport_mods\xdecor\
+ren mcimport_mods\xdecor\dark_theme_ench_ui.png ench_ui.png
+ren mcimport_mods\xdecor\dark_theme_mese_layout.png mese_layout.png
+
+
+copy dark_theme_gui_formbg.png textures\default_mcl_core\gui_hud\
+ren textures\default_mcl_core\gui_hud\dark_theme_gui_formbg.png gui_formbg.png
+
+
+copy dark_theme_minimap_overlay_square.png textures\HUD\
+ren textures\HUD\dark_theme_minimap_overlay_square.png minimap_overlay_square.png
+
+
+copy *.png textures\mcl_inventory\
+del textures\mcl_inventory\dark_theme_ench_ui.png
+del textures\mcl_inventory\dark_theme_mese_layout.png
+del textures\mcl_inventory\dark_theme_gui_formbg.png
+del textures\mcl_inventory\dark_theme_minimap_overlay_square.png
+del textures\mcl_inventory\screenshot_dark.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_active_down.png crafting_creative_active_down.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_active.png crafting_creative_active.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_bg.png crafting_creative_bg.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_inactive_down.png crafting_creative_inactive_down.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_inactive.png crafting_creative_inactive.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_next.png crafting_creative_next.png
+ren textures\mcl_inventory\dark_theme_crafting_creative_prev.png crafting_creative_prev.png
+ren textures\mcl_inventory\dark_theme_crafting_formspec_bg2.png crafting_formspec_bg2.png
+ren textures\mcl_inventory\dark_theme_crafting_formspec_bg.png crafting_formspec_bg.png
+ren textures\mcl_inventory\dark_theme_crafting_inventory_9_slots.png crafting_inventory_9_slots.png
+ren textures\mcl_inventory\dark_theme_crafting_inventory_creative.png crafting_inventory_creative.png
+ren textures\mcl_inventory\dark_theme_crafting_inventory_creative_survival.png crafting_inventory_creative_survival.png
+ren textures\mcl_inventory\dark_theme_crafting_inventory_furnace.png crafting_inventory_furnace.png
+ren textures\mcl_inventory\dark_theme_crafting_inventory_workbench.png crafting_inventory_workbench.png
+ren textures\mcl_inventory\dark_theme_mcl_base_textures_background9.png mcl_base_textures_background9.png
+ren textures\mcl_inventory\dark_theme_mcl_base_textures_background.png mcl_base_textures_background.png
+ren textures\mcl_inventory\dark_theme_mcl_base_textures_button9.png mcl_base_textures_button9.png
+ren textures\mcl_inventory\dark_theme_mcl_base_textures_button9_pressed.png mcl_base_textures_button9_pressed.png
+ren textures\mcl_inventory\dark_theme_mcl_formspec_itemslot.png mcl_formspec_itemslot.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_button9.png mcl_inventory_button9.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_button9_pressed.png mcl_inventory_button9_pressed.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_empty_armor_slot_boots.png mcl_inventory_empty_armor_slot_boots.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_empty_armor_slot_chestplate.png mcl_inventory_empty_armor_slot_chestplate.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_empty_armor_slot_helmet.png mcl_inventory_empty_armor_slot_helmet.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_empty_armor_slot_leggings.png mcl_inventory_empty_armor_slot_leggings.png
+ren textures\mcl_inventory\dark_theme_mcl_inventory_empty_armor_slot_shield.png mcl_inventory_empty_armor_slot_shield.png
+ren textures\mcl_inventory\dark_theme_mobs_mc_trading_formspec_bg.png mobs_mc_trading_formspec_bg.png
+
+
+xcopy /s /y mcimport_mods\ ..\..\mcimport_mods\
+xcopy /s /y textures\ ..\..\textures\
+rmdir /s /q mcimport_mods\
+rmdir /s /q textures\
+
+del ..\..\screenshot.png
+copy screenshot_dark.png ..\..\screenshot.png
