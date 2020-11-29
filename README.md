@@ -19,7 +19,8 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * elepower  
     * farming(_redo)  
     * fromscratch  
-    * melterns
+    * melterns  
+    * protector  
 *	Partial support for the mods used by mcimport in converted worlds.  
     * basic_materials  
     * bedrock  

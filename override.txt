@@ -2,6 +2,11 @@ farming:dry_soil all farming_dry_soil.png
 farming:dry_soil_wet all farming_dry_soil_wet.png
 tame_nodes:dry_soil all farming_dry_soil.png
 
+default:mese_post_light_acacia wield,sides mese_post_side_acacia.png^[makealpha:255,126,126
+default:mese_post_light_aspen_wood wield,sides mese_post_side_aspen.png^[makealpha:255,126,126
+default:mese_post_light_junglewood wield,sides mese_post_side_jungle.png^[makealpha:255,126,126
+default:mese_post_light_pine_wood wield,sides mese_post_side_pine.png^[makealpha:255,126,126
+default:mese_post_light wield,sides mese_post_side_oak.png^[makealpha:255,126,126
 
 mesecons_detector:object_detector_off top mesecons_switch_side.png
 mesecons_detector:object_detector_off bottom mesecons_switch_side.png
