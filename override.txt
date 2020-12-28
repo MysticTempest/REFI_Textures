@@ -1,6 +1,10 @@
+#----------------------------------------------------------------
+# Minetest Game
+#----------------------------------------------------------------
 farming:dry_soil all farming_dry_soil.png
 farming:dry_soil_wet all farming_dry_soil_wet.png
 tame_nodes:dry_soil all farming_dry_soil.png
+
 
 default:mese_post_light_acacia wield,sides mese_post_side_acacia.png^[makealpha:255,126,126
 default:mese_post_light_aspen_wood wield,sides mese_post_side_aspen.png^[makealpha:255,126,126
@@ -8,6 +12,11 @@ default:mese_post_light_junglewood wield,sides mese_post_side_jungle.png^[makeal
 default:mese_post_light_pine_wood wield,sides mese_post_side_pine.png^[makealpha:255,126,126
 default:mese_post_light wield,sides mese_post_side_oak.png^[makealpha:255,126,126
 
+
+
+#----------------------------------------------------------------
+# Mcimport Mods
+#----------------------------------------------------------------
 mesecons_detector:object_detector_off top mesecons_switch_side.png
 mesecons_detector:object_detector_off bottom mesecons_switch_side.png
 mesecons_detector:object_detector_on top mesecons_switch_side.png
@@ -40,13 +49,9 @@ mesecons_movestones:sticky_movestone_vertical front jeija_sticky_movestone.png^[
 
 
 
-
-tinkering:part_builder top tinkering_part_builder_top.png
-tinkering:pattern_table top tinkering_pattern_table_top.png
-tinkering:tool_station top tinkering_tool_station_top.png
-
-
-
+#----------------------------------------------------------------
+# Minetest Game Mods
+#----------------------------------------------------------------
 bees:extractor front bees_extractor.png
 bees:extractor top bees_extractor_front.png^[verticalframe:3]
 bees:hive_artificial left bees_side.png
@@ -55,6 +60,16 @@ bees:hive_artificial back bees_side.png
 bees:hive_artificial top bees_top.png
 bees:hive_wild all wild_hive.png
 
+
+pipeworks:trashcan top pipeworks_trashcan_top.png
+
+
+#----------------------------------------------------------------
+# SkyFactory
+#----------------------------------------------------------------
+tinkering:part_builder top tinkering_part_builder_top.png
+tinkering:pattern_table top tinkering_pattern_table_top.png
+tinkering:tool_station top tinkering_tool_station_top.png
 
 
 farming:carrot_1 sides farming_carrot_1.png
@@ -67,6 +82,33 @@ farming:carrot_7 sides farming_carrot_3.png
 farming:carrot_8 sides farming_carrot_4.png
 
 
+
+#----------------------------------------------------------------
+# MineClone2
+#----------------------------------------------------------------
+mcl_chests:chest_left top mcl_chests_big_top_leftside.png
+mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
+mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
+mcl_chests:chest_left right mcl_chests_big_rightside.png
+mcl_chests:chest_left back mcl_chests_big_back_rightside.png
+mcl_chests:chest_left front mcl_chests_big_front_leftside.png
+
+mcl_chests:chest_right top mcl_chests_big_top_leftside.png^[transformFX
+mcl_chests:chest_right bottom mcl_chests_big_top_leftside.png^[transformFX
+mcl_chests:chest_right left mcl_chests_big_rightside.png^[transformFX
+mcl_chests:chest_right right mcl_chests_big_rightside.png
+mcl_chests:chest_right back mcl_chests_big_back_rightside.png^[transformFX
+mcl_chests:chest_right front mcl_chests_big_front_rightside.png
+
+
+mcl_chests:trapped_chest_left back mcl_chests_big_back_rightside.png
+mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
+
+mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
+mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
+
+
+
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:kelp_sand all default_sand.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
@@ -76,4 +118,4 @@ mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
 
-pipeworks:trashcan top pipeworks_trashcan_top.png
+
