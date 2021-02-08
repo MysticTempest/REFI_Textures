@@ -4,7 +4,7 @@ REFI_Textures:
 
 A 16px texture pack.  
 These textures were created from scratch in an attempt to recapture the aesthetic of Minecraft, while improving upon visibility.  
-This version is usable in both Minetest Game v5.x and MineClone2.
+This version is usable in Minetest Game v5.x, MineClone2, and more.
 
 
 ------------------------------
@@ -35,6 +35,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * vines  
     * xdecor
 *	Some templates for character skin creation.
+*	Some Minetest menu textures.
 *	Support for a few Minetest Game mods.  
     * 3d_armor  
     * bakedclay  
@@ -50,7 +51,12 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * simple_robots  
     * stamina  
     * thirsty
+*	Miscellaneous Goodies.
 
+=================================
+
+PNG Optimization Settings:
+```find -type f -name "*.png" -exec optipng -o7 -nx -strip all {} \;```
 
 =================================
 
