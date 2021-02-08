@@ -1,12 +1,23 @@
 #----------------------------------------------------------------
 # Minetest Game
 #----------------------------------------------------------------
+carts:cart inventory,wield carts_cart_wield.png
+
+
+# Fixes water opacity issues in v5.4
+default:water_source all default_water_source_animated.png^[opacity:191\^[verticalframe:32
+default:water_flowing special1,special2,special3,special4,special5,special6 default_water_flowing_animated.png^[opacity:191\^[verticalframe:16
+default:river_water_source all default_river_water_source_animated.png^[opacity:160\^[verticalframe:32
+default:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:160\^[verticalframe:16
+
+
 farming:dry_soil all farming_dry_soil.png
 farming:dry_soil_wet all farming_dry_soil_wet.png
 tame_nodes:dry_soil all farming_dry_soil.png
 
 
 default:mese_post_light_acacia wield,sides mese_post_side_acacia.png^[makealpha:255,126,126
+default:mese_post_light_acacia_wood wield,sides mese_post_side_acacia.png^[makealpha:255,126,126
 default:mese_post_light_aspen_wood wield,sides mese_post_side_aspen.png^[makealpha:255,126,126
 default:mese_post_light_junglewood wield,sides mese_post_side_jungle.png^[makealpha:255,126,126
 default:mese_post_light_pine_wood wield,sides mese_post_side_pine.png^[makealpha:255,126,126
@@ -48,6 +59,8 @@ mesecons_movestones:sticky_movestone_vertical back jeija_sticky_movestone.png^[t
 mesecons_movestones:sticky_movestone_vertical front jeija_sticky_movestone.png^[transformR90
 
 
+nether:lava_crust inventory nether_lava_crust_inventory.png
+
 
 #----------------------------------------------------------------
 # Minetest Game Mods
@@ -86,6 +99,14 @@ farming:carrot_8 sides farming_carrot_4.png
 #----------------------------------------------------------------
 # MineClone2
 #----------------------------------------------------------------
+
+#-----------------------------------
+# MineClone2 large chest texture overrides for versions up to 0.70.0
+# For newer versions of MCL2; comment out, or delete this section.
+#
+# Mineclone2 chest textures - START.
+#-----------------------------------
+
 mcl_chests:chest_left top mcl_chests_big_top_leftside.png
 mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
 mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
@@ -106,7 +127,23 @@ mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
 
 mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
 mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
+#---------------------------------
+# Mineclone2 chest textures - END.
+#---------------------------------
 
+
+# Fixes water opacity issues in v5.4
+mcl_core:water_source all default_water_source_animated.png^[opacity:179\^[verticalframe:80
+mcl_core:water_flowing special1,special2,special3,special4,special5,special6 default_water_flowing_animated.png^[opacity:179\^[verticalframe:64
+mclx_core:river_water_source all default_river_water_source_animated.png^[opacity:179\^[verticalframe:80
+mclx_core:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:179\^[verticalframe:64
+
+
+mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
+
+
+mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
+mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
 
 
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
