@@ -4,7 +4,15 @@ REFI_Textures:
 
 A 16px texture pack.  
 These textures were created from scratch in an attempt to recapture the aesthetic of Minecraft, while improving upon visibility.  
-This version is usable in Minetest Game v5.x, MineClone2, and more.
+This version is fully usable in Minetest Game v5.x, MineClone2 up to 0.71.*, and more.  
+
+<br/>
+
+**Project Status:** Inactive - Further updates temporarily paused.
+<br/>
+
+-- Newer versions of MineClone 2 and/or any forks of MCL2; may be partially supported.  
+-- There are also a few alternate textures scattered about; they can be found by searching for filenames with "_alt" in them.
 
 
 ------------------------------
@@ -55,7 +63,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
 
 =================================
 
-PNG Optimization Settings:
+PNG Optimization Settings:  
 ```find -type f -name "*.png" -exec optipng -o7 -nx -strip all {} \;```
 
 =================================

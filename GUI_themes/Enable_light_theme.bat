@@ -21,7 +21,9 @@ ren textures\default_mcl_core\gui_hud\light_theme_gui_formbg.png gui_formbg.png
 
 
 copy light_theme_minimap_overlay_square.png textures\HUD\
+copy light_theme_mcl_maps_map_background.png textures\HUD\
 ren textures\HUD\light_theme_minimap_overlay_square.png minimap_overlay_square.png
+ren textures\HUD\light_theme_mcl_maps_map_background.png mcl_maps_map_background.png
 
 
 copy *.png textures\mcl_inventory\

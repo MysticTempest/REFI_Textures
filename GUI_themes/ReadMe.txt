@@ -81,6 +81,7 @@ textures/default_mcl_core/gui_hud
 
 textures/HUD
 ├── minimap_overlay_square.png
+├── mcl_maps_map_background.png
 
 textures/mcl_inventory
 ├── crafting_creative_active_down.png

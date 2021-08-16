@@ -15,7 +15,9 @@ cp light_theme_gui_formbg.png textures/default_mcl_core/gui_hud/.
 mv textures/default_mcl_core/gui_hud/light_theme_gui_formbg.png textures/default_mcl_core/gui_hud/gui_formbg.png
 
 cp light_theme_minimap_overlay_square.png textures/HUD/.
+cp light_theme_mcl_maps_map_background.png textures/HUD/.
 mv textures/HUD/light_theme_minimap_overlay_square.png textures/HUD/minimap_overlay_square.png 
+mv textures/HUD/light_theme_mcl_maps_map_background.png textures/HUD/mcl_maps_map_background.png
 
 cp *.png textures/mcl_inventory/.
 rm textures/mcl_inventory/{light_theme_ench_ui.png,light_theme_mese_layout.png,light_theme_gui_formbg.png,light_theme_minimap_overlay_square.png,screenshot_light.png}
