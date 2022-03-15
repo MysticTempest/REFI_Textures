@@ -107,26 +107,26 @@ farming:carrot_8 sides farming_carrot_4.png
 # Mineclone2 chest textures - START.
 #-----------------------------------
 
-mcl_chests:chest_left top mcl_chests_big_top_leftside.png
-mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
-mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
-mcl_chests:chest_left right mcl_chests_big_rightside.png
-mcl_chests:chest_left back mcl_chests_big_back_rightside.png
-mcl_chests:chest_left front mcl_chests_big_front_leftside.png
+#mcl_chests:chest_left top mcl_chests_big_top_leftside.png
+#mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
+#mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
+#mcl_chests:chest_left right mcl_chests_big_rightside.png
+#mcl_chests:chest_left back mcl_chests_big_back_rightside.png
+#mcl_chests:chest_left front mcl_chests_big_front_leftside.png
 
-mcl_chests:chest_right top mcl_chests_big_top_leftside.png^[transformFX
-mcl_chests:chest_right bottom mcl_chests_big_top_leftside.png^[transformFX
-mcl_chests:chest_right left mcl_chests_big_rightside.png^[transformFX
-mcl_chests:chest_right right mcl_chests_big_rightside.png
-mcl_chests:chest_right back mcl_chests_big_back_rightside.png^[transformFX
-mcl_chests:chest_right front mcl_chests_big_front_rightside.png
+#mcl_chests:chest_right top mcl_chests_big_top_leftside.png^[transformFX
+#mcl_chests:chest_right bottom mcl_chests_big_top_leftside.png^[transformFX
+#mcl_chests:chest_right left mcl_chests_big_rightside.png^[transformFX
+#mcl_chests:chest_right right mcl_chests_big_rightside.png
+#mcl_chests:chest_right back mcl_chests_big_back_rightside.png^[transformFX
+#mcl_chests:chest_right front mcl_chests_big_front_rightside.png
 
 
-mcl_chests:trapped_chest_left back mcl_chests_big_back_rightside.png
-mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
+#mcl_chests:trapped_chest_left back mcl_chests_big_back_rightside.png
+#mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
 
-mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
-mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
+#mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
+#mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
 #---------------------------------
 # Mineclone2 chest textures - END.
 #---------------------------------
@@ -141,6 +141,10 @@ mclx_core:river_water_flowing special1,special2,special3,special4,special5,speci
 
 mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
 
+mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
+
+mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
+
 
 mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
 mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
@@ -152,6 +156,7 @@ mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
 
+mesecons_commandblock:commandblock_on all jeija_commandblock_on.png
 mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
 

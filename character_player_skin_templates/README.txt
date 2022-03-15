@@ -56,6 +56,8 @@ Character:
 	"character_beardhair_colors.png" : optional - 16x16 - Overlays quadrant [1] 
 	"character_eye_colors.png" - 16x16 - Overlays quadrant [1] 
 	"character_face_items.png" : optional - 32x16 - Overlays quadrant [3,4] 
+	"character_capes_Scaled_128x64.png" - 128x64 - Overlays quadrant [8], but requires scaling up of the 'character.png' file from 64x32 to 128x64.
+
 
 6.	Before merging the layers together delete the secondary head sprite on the base template in quadrants [3,4].
 
