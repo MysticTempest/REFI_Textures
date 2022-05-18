@@ -139,6 +139,8 @@ mclx_core:river_water_source all default_river_water_source_animated.png^[opacit
 mclx_core:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:179\^[verticalframe:64
 
 
+mcl_compass:lodestone sides lodestone_side.png
+
 mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
 
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
@@ -161,3 +163,21 @@ mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
 
 
+mcl_cartography_table:cartography_table top mcl_cartography_table_top.png
+mcl_cartography_table:cartography_table front mcl_cartography_table_front.png
+mcl_cartography_table:cartography_table left mcl_cartography_table_left.png
+mcl_cartography_table:cartography_table right mcl_cartography_table_right.png
+mcl_cartography_table:cartography_table back mcl_cartography_table_back.png
+mcl_cartography_table:cartography_table bottom mcl_cartography_table_bottom.png
+mcl_fletching_table:fletching_table top mcl_fletching_table_top.png
+mcl_fletching_table:fletching_table front mcl_fletching_table_front.png
+mcl_fletching_table:fletching_table left mcl_fletching_table_left.png
+mcl_fletching_table:fletching_table right mcl_fletching_table_right.png
+mcl_fletching_table:fletching_table back mcl_fletching_table_back.png
+mcl_fletching_table:fletching_table bottom mcl_fletching_table_bottom.png
+mcl_loom:loom top mcl_loom_top.png
+mcl_loom:loom front mcl_loom_front.png
+mcl_loom:loom left mcl_loom_left.png
+mcl_loom:loom right mcl_loom_right.png
+mcl_loom:loom back mcl_loom_back.png
+mcl_loom:loom bottom mcl_loom_bottom.png
