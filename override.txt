@@ -143,7 +143,16 @@ mcl_compass:lodestone sides lodestone_side.png
 
 mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
 
+mcl_crimson:stripped_warped_hyphae top,bottom stripped_warped_top.png
+mcl_crimson:stripped_warped_hyphae sides stripped_warped_side.png
+mcl_crimson:stripped_warped_hyphae_bark all stripped_warped_side.png
+mcl_crimson:stripped_crimson_hyphae top,bottom stripped_crimson_top.png
+mcl_crimson:stripped_crimson_hyphae sides stripped_crimson_side.png
+mcl_crimson:stripped_crimson_hyphae_bark all stripped_crimson_side.png
+
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
+
+mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
 
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
 
@@ -158,9 +167,16 @@ mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
 
+mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
+
+
 mesecons_commandblock:commandblock_on all jeija_commandblock_on.png
 mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
+
+
+mcl_campfires:campfire inventory mcl_campfires_unlit_campfire_inv.png
+mcl_campfires:soul_campfire inventory mcl_campfires_unlit_campfire_inv.png
 
 
 mcl_cartography_table:cartography_table top mcl_cartography_table_top.png
