@@ -61,6 +61,9 @@ mesecons_movestones:sticky_movestone_vertical front jeija_sticky_movestone.png^[
 
 nether:lava_crust inventory nether_lava_crust_inventory.png
 
+xdecor:speaker left,right,back,top,bottom xdecor_speaker_side.png
+xdecor:radio left,right,back,top,bottom xdecor_speaker_side.png
+
 
 #----------------------------------------------------------------
 # Minetest Game Mods
@@ -139,6 +142,12 @@ mclx_core:river_water_source all default_river_water_source_animated.png^[opacit
 mclx_core:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:179\^[verticalframe:64
 
 
+mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
+
+mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
+
+mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
+
 mcl_compass:lodestone sides lodestone_side.png
 
 mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
@@ -150,9 +159,10 @@ mcl_crimson:stripped_crimson_hyphae top,bottom stripped_crimson_top.png
 mcl_crimson:stripped_crimson_hyphae sides stripped_crimson_side.png
 mcl_crimson:stripped_crimson_hyphae_bark all stripped_crimson_side.png
 
-mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
 
-mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
+# Fix MineClone2 wieldview breakage.
+mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
+mcl_mobitems:carrot_on_a_stick wield mcl_mobitems_carrot_on_a_stick.png^[transformR270
 
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
 
