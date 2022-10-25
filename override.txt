@@ -146,6 +146,32 @@ mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
 
 mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
 
+
+#-------------------------------------------
+# Mineclone2 bed inventory textures - START.
+# Override fixes for MCL2 version 0.80
+#-------------------------------------------
+mcl_beds:bed_black_bottom wield,inventory mcl_beds_bed_black_inv.png
+mcl_beds:bed_blue_bottom wield,inventory mcl_beds_bed_blue_inv.png
+mcl_beds:bed_brown_bottom wield,inventory mcl_beds_bed_brown_inv.png
+mcl_beds:bed_cyan_bottom wield,inventory mcl_beds_bed_cyan_inv.png
+mcl_beds:bed_green_bottom wield,inventory mcl_beds_bed_green_inv.png
+mcl_beds:bed_grey_bottom wield,inventory mcl_beds_bed_grey_inv.png
+mcl_beds:bed_light_blue_bottom wield,inventory mcl_beds_bed_light_blue_inv.png
+mcl_beds:bed_lime_bottom wield,inventory mcl_beds_bed_lime_inv.png
+mcl_beds:bed_magenta_bottom wield,inventory mcl_beds_bed_magenta_inv.png
+mcl_beds:bed_orange_bottom wield,inventory mcl_beds_bed_orange_inv.png
+mcl_beds:bed_pink_bottom wield,inventory mcl_beds_bed_pink_inv.png
+mcl_beds:bed_purple_bottom wield,inventory mcl_beds_bed_purple_inv.png
+mcl_beds:bed_red_bottom wield,inventory mcl_beds_bed_red_inv.png
+mcl_beds:bed_silver_bottom wield,inventory mcl_beds_bed_silver_inv.png
+mcl_beds:bed_white_bottom wield,inventory mcl_beds_bed_white_inv.png
+mcl_beds:bed_yellow_bottom wield,inventory mcl_beds_bed_yellow_inv.png
+#-------------------------------------------
+# Mineclone2 bed inventory textures - END.
+#-------------------------------------------
+
+
 mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
 
 mcl_compass:lodestone sides lodestone_side.png
@@ -177,14 +203,6 @@ mcl_ocean:seagrass_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
 
-mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
-
-
-mesecons_commandblock:commandblock_on all jeija_commandblock_on.png
-mesecons_lightstone:lightstone_off all redstone_lamp_off.png
-mesecons_lightstone:lightstone_on all redstone_lamp_on.png
-
-
 mcl_campfires:campfire inventory mcl_campfires_unlit_campfire_inv.png
 mcl_campfires:soul_campfire inventory mcl_campfires_unlit_campfire_inv.png
 
@@ -207,3 +225,117 @@ mcl_loom:loom left mcl_loom_left.png
 mcl_loom:loom right mcl_loom_right.png
 mcl_loom:loom back mcl_loom_back.png
 mcl_loom:loom bottom mcl_loom_bottom.png
+
+mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
+
+#--------------------------------------
+# Mineclone2 sign textures - START.
+# Override fixes for MCL2 version 0.80
+#--------------------------------------
+mcl_signs:wall_sign inventory,wield mcl_signs_inv_wood.png
+mcl_signs:wall_sign_acaciawood inventory,wield mcl_signs_inv_acacia.png
+mcl_signs:wall_sign_birchwood inventory,wield mcl_signs_inv_birch.png
+mcl_signs:wall_sign_darkwood inventory,wield mcl_signs_inv_darkoak.png
+mcl_signs:wall_sign_junglewood inventory,wield mcl_signs_inv_jungle.png
+mcl_signs:wall_sign_mangrove_wood inventory,wield mcl_signs_inv_mangrove.png
+mcl_signs:wall_sign_sprucewood inventory,wield mcl_signs_inv_spruce.png
+
+mcl_signs:wall_sign all mcl_signs_sign.png
+mcl_signs:wall_sign_acaciawood all mcl_signs_sign_acacia.png
+mcl_signs:wall_sign_birchwood all mcl_signs_sign_birch.png
+mcl_signs:wall_sign_darkwood all mcl_signs_sign_darkoak.png
+mcl_signs:wall_sign_junglewood all mcl_signs_sign_jungle.png
+mcl_signs:wall_sign_mangrove_wood all mcl_signs_sign_mangrove.png
+mcl_signs:wall_sign_sprucewood all mcl_signs_sign_spruce.png
+
+mcl_signs:standing_sign all mcl_signs_sign.png
+mcl_signs:standing_sign_acaciawood all mcl_signs_sign_acacia.png
+mcl_signs:standing_sign_birchwood all mcl_signs_sign_birch.png
+mcl_signs:standing_sign_darkwood all mcl_signs_sign_darkoak.png
+mcl_signs:standing_sign_junglewood all mcl_signs_sign_jungle.png
+mcl_signs:standing_sign_mangrove_wood all mcl_signs_sign_mangrove.png
+mcl_signs:standing_sign_sprucewood all mcl_signs_sign_spruce.png
+#-------------------------------------
+# Mineclone2 sign textures - END.
+#-------------------------------------
+
+
+#--------------------------------------
+# Mineclone2 torch textures - START.
+# Override fixes for MCL2 version 0.80
+#--------------------------------------
+mcl_torches:torch all mcl_torch_on_floor_animated.png
+mcl_torches:torch_wall all mcl_torch_on_floor_animated.png
+mcl_blackstone:soul_torch all mcl_soultorch_on_floor_animated.png
+mcl_blackstone:soul_torch_wall all mcl_soultorch_on_floor_animated.png
+#-------------------------------------
+# Mineclone2 torch textures - END.
+#-------------------------------------
+
+mesecons_commandblock:commandblock_on all jeija_commandblock_on.png
+mesecons_lightstone:lightstone_off all redstone_lamp_off.png
+mesecons_lightstone:lightstone_on all redstone_lamp_on.png
+
+
+#-------------------------------------
+# Mineclone2 mob egg textures - START.
+# Override fixes for MCL2 version 0.80
+#-------------------------------------
+mobs_mc:bat wield,inventory mobs_mc_spawn_icon_bat.png
+mobs_mc:blaze wield,inventory mobs_mc_spawn_icon_blaze.png
+mobs_mc:cave_spider wield,inventory mobs_mc_spawn_icon_cave_spider.png
+mobs_mc:chicken wield,inventory mobs_mc_spawn_icon_chicken.png
+mobs_mc:cod wield,inventory extra_mobs_spawn_icon_cod.png
+mobs_mc:cow wield,inventory mobs_mc_spawn_icon_cow.png
+mobs_mc:creeper wield,inventory mobs_mc_spawn_icon_creeper.png
+mobs_mc:dolphin wield,inventory extra_mobs_spawn_icon_dolphin.png
+mobs_mc:donkey wield,inventory mobs_mc_spawn_icon_donkey.png
+mobs_mc:enderman wield,inventory mobs_mc_spawn_icon_enderman.png
+mobs_mc:endermite wield,inventory mobs_mc_spawn_icon_endermite.png
+mobs_mc:evoker wield,inventory mobs_mc_spawn_icon_evoker.png
+mobs_mc:ghast wield,inventory mobs_mc_spawn_icon_ghast.png
+mobs_mc:guardian wield,inventory mobs_mc_spawn_icon_guardian.png
+mobs_mc:guardian_elder wield,inventory mobs_mc_spawn_icon_guardian_elder.png
+mobs_mc:horse wield,inventory mobs_mc_spawn_icon_horse.png
+mobs_mc:husk wield,inventory mobs_mc_spawn_icon_husk.png
+mobs_mc:illusioner wield,inventory mobs_mc_spawn_icon_illusioner.png
+mobs_mc:iron_golem wield,inventory mobs_mc_spawn_icon_iron_golem.png
+mobs_mc:killer_bunny wield,inventory mobs_mc_spawn_icon_killer_rabbit.png
+mobs_mc:llama wield,inventory mobs_mc_spawn_icon_llama.png
+mobs_mc:magma_cube_big wield,inventory mobs_mc_spawn_icon_magmacube.png
+mobs_mc:mooshroom wield,inventory mobs_mc_spawn_icon_mooshroom.png
+mobs_mc:mule wield,inventory mobs_mc_spawn_icon_mule.png
+mobs_mc:ocelot wield,inventory mobs_mc_spawn_icon_cat.png
+mobs_mc:parrot wield,inventory mobs_mc_spawn_icon_parrot.png
+mobs_mc:pig wield,inventory mobs_mc_spawn_icon_pig.png
+mobs_mc:pigman wield,inventory mobs_mc_spawn_icon_zombie_pigman.png
+mobs_mc:pillager wield,inventory mobs_mc_spawn_icon_pillager.png
+mobs_mc:polar_bear wield,inventory mobs_mc_spawn_icon_polarbear.png
+mobs_mc:rabbit wield,inventory mobs_mc_spawn_icon_rabbit.png
+mobs_mc:salmon wield,inventory extra_mobs_spawn_icon_salmon.png
+mobs_mc:sheep wield,inventory mobs_mc_spawn_icon_sheep.png
+mobs_mc:shulker wield,inventory mobs_mc_spawn_icon_shulker.png
+mobs_mc:silverfish wield,inventory mobs_mc_spawn_icon_silverfish.png
+mobs_mc:skeleton wield,inventory mobs_mc_spawn_icon_skeleton.png
+mobs_mc:skeleton_horse wield,inventory mobs_mc_spawn_icon_horse_skeleton.png
+mobs_mc:slime_big wield,inventory mobs_mc_spawn_icon_slime.png
+mobs_mc:snowman wield,inventory mobs_mc_spawn_icon_snowman.png
+mobs_mc:spider wield,inventory mobs_mc_spawn_icon_spider.png
+mobs_mc:squid wield,inventory mobs_mc_spawn_icon_squid.png
+mobs_mc:stray wield,inventory mobs_mc_spawn_icon_stray.png
+mobs_mc:tropical_fish wield,inventory extra_mobs_spawn_icon_tropical_fish.png
+mobs_mc:vex wield,inventory mobs_mc_spawn_icon_vex.png
+mobs_mc:villager wield,inventory mobs_mc_spawn_icon_villager.png
+mobs_mc:villager_zombie wield,inventory mobs_mc_spawn_icon_zombie_villager.png
+mobs_mc:vindicator wield,inventory mobs_mc_spawn_icon_vindicator.png
+mobs_mc:witherskeleton wield,inventory mobs_mc_spawn_icon_witherskeleton.png
+mobs_mc:wolf wield,inventory mobs_mc_spawn_icon_wolf.png
+mobs_mc:zombie wield,inventory mobs_mc_spawn_icon_zombie.png
+mobs_mc:witch wield,inventory mobs_mc_spawn_icon_witch.png
+mobs_mc:enderdragon wield,inventory mobs_mc_spawn_icon_dragon.png
+mobs_mc:wither wield,inventory mobs_mc_spawn_icon_wither.png
+mobs_mc:glow_squid wield,inventory extra_mobs_spawn_icon_glow_squid.png
+#-------------------------------------
+# Mineclone2 mob egg textures - END.
+#-------------------------------------
+
