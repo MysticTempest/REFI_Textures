@@ -189,9 +189,18 @@ mcl_crimson:stripped_crimson_hyphae_bark all stripped_crimson_side.png
 # Fix MineClone2 wieldview breakage.
 mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
 mcl_mobitems:carrot_on_a_stick wield mcl_mobitems_carrot_on_a_stick.png^[transformR270
+mcl_mobitems:warped_fungus_on_a_stick wield mcl_mobitems_warped_fungus_on_a_stick.png^[transformR270
+
 
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
 
+mcl_beehives:beehive top mcl_beehives_beehive_top.png
+mcl_beehives:beehive_1 top mcl_beehives_beehive_top.png
+mcl_beehives:beehive_2 top mcl_beehives_beehive_top.png
+mcl_beehives:beehive_3 top mcl_beehives_beehive_top.png
+mcl_beehives:beehive_4 top mcl_beehives_beehive_top.png
+mcl_beehives:beehive_5 top mcl_beehives_beehive_top.png
+mcl_honey:honey_block all mcl_honey_block_side.png
 
 mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
 mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
@@ -226,6 +235,12 @@ mcl_loom:loom right mcl_loom_right.png
 mcl_loom:loom back mcl_loom_back.png
 mcl_loom:loom bottom mcl_loom_bottom.png
 
+
+# Override fixes for MCL2 version 0.81
+mcl_itemframes:item_frame inventory,wield mcl_itemframes_item_frame_inv.png
+mcl_itemframes:glow_item_frame inventory,wield mcl_itemframes_glow_item_frame_inv.png
+
+
 mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
 
 #--------------------------------------
@@ -239,6 +254,8 @@ mcl_signs:wall_sign_darkwood inventory,wield mcl_signs_inv_darkoak.png
 mcl_signs:wall_sign_junglewood inventory,wield mcl_signs_inv_jungle.png
 mcl_signs:wall_sign_mangrove_wood inventory,wield mcl_signs_inv_mangrove.png
 mcl_signs:wall_sign_sprucewood inventory,wield mcl_signs_inv_spruce.png
+mcl_signs:wall_sign_crimson_hyphae_wood inventory,wield mcl_signs_inv_crimson.png
+mcl_signs:wall_sign_warped_hyphae_wood inventory,wield mcl_signs_inv_warped.png
 
 mcl_signs:wall_sign all mcl_signs_sign.png
 mcl_signs:wall_sign_acaciawood all mcl_signs_sign_acacia.png
@@ -247,6 +264,8 @@ mcl_signs:wall_sign_darkwood all mcl_signs_sign_darkoak.png
 mcl_signs:wall_sign_junglewood all mcl_signs_sign_jungle.png
 mcl_signs:wall_sign_mangrove_wood all mcl_signs_sign_mangrove.png
 mcl_signs:wall_sign_sprucewood all mcl_signs_sign_spruce.png
+mcl_signs:wall_sign_crimson_hyphae_wood all mcl_signs_sign_crimson.png
+mcl_signs:wall_sign_warped_hyphae_wood all mcl_signs_sign_warped.png
 
 mcl_signs:standing_sign all mcl_signs_sign.png
 mcl_signs:standing_sign_acaciawood all mcl_signs_sign_acacia.png
@@ -255,6 +274,8 @@ mcl_signs:standing_sign_darkwood all mcl_signs_sign_darkoak.png
 mcl_signs:standing_sign_junglewood all mcl_signs_sign_jungle.png
 mcl_signs:standing_sign_mangrove_wood all mcl_signs_sign_mangrove.png
 mcl_signs:standing_sign_sprucewood all mcl_signs_sign_spruce.png
+mcl_signs:standing_sign_crimson_hyphae_wood all mcl_signs_sign_crimson.png
+mcl_signs:standing_sign_warped_hyphae_wood all mcl_signs_sign_warped.png
 #-------------------------------------
 # Mineclone2 sign textures - END.
 #-------------------------------------
