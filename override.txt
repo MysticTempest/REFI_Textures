@@ -356,6 +356,7 @@ mobs_mc:witch wield,inventory mobs_mc_spawn_icon_witch.png
 mobs_mc:enderdragon wield,inventory mobs_mc_spawn_icon_dragon.png
 mobs_mc:wither wield,inventory mobs_mc_spawn_icon_wither.png
 mobs_mc:glow_squid wield,inventory extra_mobs_spawn_icon_glow_squid.png
+mobs_mc:bee wield,inventory mobs_mc_spawn_icon_bee.png
 #-------------------------------------
 # Mineclone2 mob egg textures - END.
 #-------------------------------------

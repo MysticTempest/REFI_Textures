@@ -12,7 +12,7 @@ This version is fully usable in Minetest Game, MineClone2 up to v0.80, and more.
 <br/>
 
 -- Forks of MCL2; may be partially supported.  
--- There are also a few alternate textures scattered about; they can be found by searching for filenames with "_alt" in them.
+
 
 
 ------------------------------
@@ -52,6 +52,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * digilines  
     * elevators  
     * hbhunger  
+    * leads 
     * mobs_redo  
     * new_fireworks  
     * pipeworks  
@@ -60,6 +61,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, an
     * stamina  
     * thirsty
 *	Miscellaneous Goodies.
+*	Alternate textures moved to their own folder.
 
 =================================
 
