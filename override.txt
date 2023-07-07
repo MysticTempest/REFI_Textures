@@ -267,6 +267,7 @@ mcl_signs:wall_sign_sprucewood all mcl_signs_sign_spruce.png
 mcl_signs:wall_sign_crimson_hyphae_wood all mcl_signs_sign_crimson.png
 mcl_signs:wall_sign_warped_hyphae_wood all mcl_signs_sign_warped.png
 
+
 mcl_signs:standing_sign all mcl_signs_sign.png
 mcl_signs:standing_sign_acaciawood all mcl_signs_sign_acacia.png
 mcl_signs:standing_sign_birchwood all mcl_signs_sign_birch.png
@@ -276,6 +277,33 @@ mcl_signs:standing_sign_mangrove_wood all mcl_signs_sign_mangrove.png
 mcl_signs:standing_sign_sprucewood all mcl_signs_sign_spruce.png
 mcl_signs:standing_sign_crimson_hyphae_wood all mcl_signs_sign_crimson.png
 mcl_signs:standing_sign_warped_hyphae_wood all mcl_signs_sign_warped.png
+
+mcl_signs:standing_sign22_5_acaciawood all mcl_signs_sign_acacia.png
+mcl_signs:standing_sign22_5_birchwood all mcl_signs_sign_birch.png
+mcl_signs:standing_sign22_5_darkwood all mcl_signs_sign_darkoak.png
+mcl_signs:standing_sign22_5_junglewood all mcl_signs_sign_jungle.png
+mcl_signs:standing_sign22_5_mangrove_wood all mcl_signs_sign_mangrove.png
+mcl_signs:standing_sign22_5_sprucewood all mcl_signs_sign_spruce.png
+mcl_signs:standing_sign22_5_crimson_hyphae_wood all mcl_signs_sign_crimson.png
+mcl_signs:standing_sign22_5_warped_hyphae_wood all mcl_signs_sign_warped.png
+
+mcl_signs:standing_sign45_acaciawood all mcl_signs_sign_acacia.png
+mcl_signs:standing_sign45_birchwood all mcl_signs_sign_birch.png
+mcl_signs:standing_sign45_darkwood all mcl_signs_sign_darkoak.png
+mcl_signs:standing_sign45_junglewood all mcl_signs_sign_jungle.png
+mcl_signs:standing_sign45_mangrove_wood all mcl_signs_sign_mangrove.png
+mcl_signs:standing_sign45_sprucewood all mcl_signs_sign_spruce.png
+mcl_signs:standing_sign45_crimson_hyphae_wood all mcl_signs_sign_crimson.png
+mcl_signs:standing_sign45_warped_hyphae_wood all mcl_signs_sign_warped.png
+
+mcl_signs:standing_sign67_5_acaciawood all mcl_signs_sign_acacia.png
+mcl_signs:standing_sign67_5_birchwood all mcl_signs_sign_birch.png
+mcl_signs:standing_sign67_5_darkwood all mcl_signs_sign_darkoak.png
+mcl_signs:standing_sign67_5_junglewood all mcl_signs_sign_jungle.png
+mcl_signs:standing_sign67_5_mangrove_wood all mcl_signs_sign_mangrove.png
+mcl_signs:standing_sign67_5_sprucewood all mcl_signs_sign_spruce.png
+mcl_signs:standing_sign67_5_crimson_hyphae_wood all mcl_signs_sign_crimson.png
+mcl_signs:standing_sign67_5_warped_hyphae_wood all mcl_signs_sign_warped.png
 #-------------------------------------
 # Mineclone2 sign textures - END.
 #-------------------------------------

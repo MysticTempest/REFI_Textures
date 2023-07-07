@@ -177,8 +177,11 @@ cd ..
 #: Dark, wine-colored, nether bricks:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_nether_brick_alt.png textures/mcl_nether/mcl_nether_nether_brick.png
+#cp alternate_textures/texture_alts/mcl_nether_chiseled_nether_bricks_alt.png textures/mcl_nether/mcl_nether_chiseled_nether_bricks.png
+#cp alternate_textures/texture_alts/mcl_nether_cracked_nether_bricks_alt.png textures/mcl_nether/mcl_nether_cracked_nether_bricks.png
 #cp alternate_textures/texture_alts/mcl_fences_fence_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_nether_brick.png
 #cp alternate_textures/texture_alts/mcl_fences_fence_gate_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_gate_nether_brick.png
+
 
 #--------------------------------------------------
 #: Blood-red colored, nether bricks:
@@ -228,4 +231,20 @@ cd ..
 #cp alternate_textures/texture_alts/stamina_hud_poison_alt.png minetest_game_mods/stamina/stamina_hud_poison.png
 
 
-#===================================================================================================================================
+#===========================================================
+#--------------------------------------------------
+#: Light orange glowstone, and glowstone related items:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_nether_glowstone_alt.png textures/mcl_nether/mcl_nether_glowstone.png
+#cp alternate_textures/texture_alts/mcl_nether_glowstone_dust_alt.png textures/mcl_nether/mcl_nether_glowstone_dust.png
+
+#cp alternate_textures/texture_alts/portal_alt.png textures/beds_mcl_beds/portal.png
+#cp alternate_textures/texture_alts/respawn_anchor_side1_alt.png textures/beds_mcl_beds/respawn_anchor_side1.png
+#cp alternate_textures/texture_alts/respawn_anchor_side2_alt.png textures/beds_mcl_beds/respawn_anchor_side2.png
+#cp alternate_textures/texture_alts/respawn_anchor_side3_alt.png textures/beds_mcl_beds/respawn_anchor_side3.png
+#cp alternate_textures/texture_alts/respawn_anchor_side4_alt.png textures/beds_mcl_beds/respawn_anchor_side4.png
+#cp alternate_textures/texture_alts/respawn_anchor_top_on_alt.png textures/beds_mcl_beds/respawn_anchor_top_on.png
+
+
+#===================================================================================================================================#
+
