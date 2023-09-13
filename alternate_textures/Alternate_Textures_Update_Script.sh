@@ -225,16 +225,16 @@ cd ..
 
 #===========================================================
 #: Bread icons for Stamina HUD:
-#-----------------------------------------------------------
+#------------------------------------------------------
 #cp alternate_textures/texture_alts/stamina_hud_bg_alt.png minetest_game_mods/stamina/stamina_hud_bg.png
 #cp alternate_textures/texture_alts/stamina_hud_fg_alt.png minetest_game_mods/stamina/stamina_hud_fg.png
 #cp alternate_textures/texture_alts/stamina_hud_poison_alt.png minetest_game_mods/stamina/stamina_hud_poison.png
 
 
 #===========================================================
-#--------------------------------------------------
+#------------------------------------------------------
 #: Light orange glowstone, and glowstone related items:
-#--------------------------------------------------
+#------------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_glowstone_alt.png textures/mcl_nether/mcl_nether_glowstone.png
 #cp alternate_textures/texture_alts/mcl_nether_glowstone_dust_alt.png textures/mcl_nether/mcl_nether_glowstone_dust.png
 
@@ -244,6 +244,29 @@ cd ..
 #cp alternate_textures/texture_alts/respawn_anchor_side3_alt.png textures/beds_mcl_beds/respawn_anchor_side3.png
 #cp alternate_textures/texture_alts/respawn_anchor_side4_alt.png textures/beds_mcl_beds/respawn_anchor_side4.png
 #cp alternate_textures/texture_alts/respawn_anchor_top_on_alt.png textures/beds_mcl_beds/respawn_anchor_top_on.png
+
+
+#===========================================================
+#===========================================================
+#===========================================================
+#--------------------------------------------------
+#: Backup images for non-Mineclonia, Mcl* games:
+#	Fixes model & formspec changes.
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_campfires_campfire_fire_old.png textures/mcl_campfires/mcl_campfires_campfire_fire.png
+#cp alternate_textures/texture_alts/mcl_campfires_campfire_log_lit_old.png textures/mcl_campfires/mcl_campfires_campfire_log_lit.png
+#cp alternate_textures/texture_alts/mcl_campfires_log_old.png textures/mcl_campfires/mcl_campfires_log.png
+#cp alternate_textures/texture_alts/mcl_campfires_soul_campfire_fire_old.png textures/mcl_campfires/mcl_campfires_soul_campfire_fire.png
+#cp alternate_textures/texture_alts/mcl_campfires_soul_campfire_log_lit_old.png textures/mcl_campfires/mcl_campfires_soul_campfire_log_lit.png
+
+#cp alternate_textures/texture_alts/mcl_enchanting_lapis_background_old.png textures/mcl_enchanting/mcl_enchanting_lapis_background.png
+
+#cp alternate_textures/texture_alts/mcl_heads_creeper_old.png textures/mobs_mc/mcl_heads/mcl_heads_creeper.png
+#cp alternate_textures/texture_alts/mcl_heads_skeleton_old.png textures/mobs_mc/mcl_heads/mcl_heads_skeleton.png
+#cp alternate_textures/texture_alts/mcl_heads_steve_old.png textures/mobs_mc/mcl_heads/mcl_heads_steve.png
+#cp alternate_textures/texture_alts/mcl_heads_wither_skeleton_old.png textures/mobs_mc/mcl_heads/mcl_heads_wither_skeleton.png
+#cp alternate_textures/texture_alts/mcl_heads_zombie_old.png textures/mobs_mc/mcl_heads/mcl_heads_zombie.png
+
 
 
 #===================================================================================================================================#

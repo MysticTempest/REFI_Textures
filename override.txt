@@ -185,6 +185,34 @@ mcl_crimson:stripped_crimson_hyphae top,bottom stripped_crimson_top.png
 mcl_crimson:stripped_crimson_hyphae sides stripped_crimson_side.png
 mcl_crimson:stripped_crimson_hyphae_bark all stripped_crimson_side.png
 
+#-------------------------------------------
+# Mineclonia dye texture fixes - START.
+# Override fixes for MCLA
+#-------------------------------------------
+mcl_dyes:black inventory,wield mcl_dye_black.png
+mcl_dyes:blue inventory,wield mcl_dye_blue.png
+mcl_dyes:brown inventory,wield mcl_dye_brown.png
+mcl_dyes:cyan inventory,wield mcl_dye_cyan.png
+mcl_dyes:green inventory,wield mcl_dye_dark_green.png
+mcl_dyes:dark_green inventory,wield mcl_dye_dark_green.png
+mcl_dyes:grey inventory,wield mcl_dye_dark_grey.png
+mcl_dyes:dark_grey inventory,wield mcl_dye_dark_grey.png
+mcl_dyes:lightblue inventory,wield mcl_dye_light_blue.png
+mcl_dyes:light_blue inventory,wield mcl_dye_light_blue.png
+mcl_dyes:lime inventory,wield mcl_dye_lime.png
+mcl_dyes:magenta inventory,wield mcl_dye_magenta.png
+mcl_dyes:orange inventory,wield mcl_dye_orange.png
+mcl_dyes:pink inventory,wield mcl_dye_pink.png
+mcl_dyes:violet inventory,wield mcl_dye_violet.png
+mcl_dyes:purple inventory,wield mcl_dye_violet.png
+mcl_dyes:red inventory,wield mcl_dye_red.png
+mcl_dyes:silver inventory,wield mcl_dye_grey.png
+mcl_dyes:yellow inventory,wield mcl_dye_yellow.png
+mcl_dyes:white inventory,wield mcl_dye_white.png
+#-------------------------------------------
+# Mineclonia dye texture fixes - END.
+#-------------------------------------------
+
 
 # Fix MineClone2 wieldview breakage.
 mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
@@ -304,6 +332,33 @@ mcl_signs:standing_sign67_5_mangrove_wood all mcl_signs_sign_mangrove.png
 mcl_signs:standing_sign67_5_sprucewood all mcl_signs_sign_spruce.png
 mcl_signs:standing_sign67_5_crimson_hyphae_wood all mcl_signs_sign_crimson.png
 mcl_signs:standing_sign67_5_warped_hyphae_wood all mcl_signs_sign_warped.png
+
+#-------------------------------------
+# MCLA sign fixes:
+#-------------------------------------
+mcl_signs:wall_sign_cherry_blossom inventory,wield mcl_signs_inv_cherry.png
+mcl_signs:wall_sign_cherry_blossom all mcl_signs_sign_cherry.png
+mcl_signs:standing_sign_cherry_blossom all mcl_signs_sign_cherry.png
+mcl_signs:standing_sign22_5_cherry_blossom all mcl_signs_sign_cherry.png
+mcl_signs:standing_sign45_cherry_blossom all mcl_signs_sign_cherry.png
+mcl_signs:standing_sign67_5_cherry_blossom all mcl_signs_sign_cherry.png
+
+mcl_signs:wall_sign_bamboo inventory,wield mcl_bamboo_bamboo_sign_wield.png
+mcl_signs:wall_sign_bamboo all mcl_bamboo_bamboo_sign.png
+mcl_signs:standing_sign_bamboo all mcl_bamboo_bamboo_sign.png
+mcl_signs:standing_sign22_5_bamboo all mcl_bamboo_bamboo_sign.png
+mcl_signs:standing_sign45_bamboo all mcl_bamboo_bamboo_sign.png
+mcl_signs:standing_sign67_5_bamboo all mcl_bamboo_bamboo_sign.png
+
+mcl_signs:wall_sign_oak inventory,wield mcl_signs_inv_wood.png
+mcl_signs:wall_sign_acacia inventory,wield mcl_signs_inv_acacia.png
+mcl_signs:wall_sign_birch inventory,wield mcl_signs_inv_birch.png
+mcl_signs:wall_sign_dark_oak inventory,wield mcl_signs_inv_darkoak.png
+mcl_signs:wall_sign_jungle inventory,wield mcl_signs_inv_jungle.png
+mcl_signs:wall_sign_mangrove inventory,wield mcl_signs_inv_mangrove.png
+mcl_signs:wall_sign_spruce inventory,wield mcl_signs_inv_spruce.png
+mcl_signs:wall_sign_crimson inventory,wield mcl_signs_inv_crimson.png
+mcl_signs:wall_sign_warped inventory,wield mcl_signs_inv_warped.png
 #-------------------------------------
 # Mineclone2 sign textures - END.
 #-------------------------------------
