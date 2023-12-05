@@ -100,7 +100,7 @@ farming:carrot_8 sides farming_carrot_4.png
 
 
 #----------------------------------------------------------------
-# MineClone2
+# Mineclonia/Legacy MCL2:
 #----------------------------------------------------------------
 
 #-----------------------------------
@@ -218,6 +218,7 @@ mcl_dyes:white inventory,wield mcl_dye_white.png
 mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
 mcl_mobitems:carrot_on_a_stick wield mcl_mobitems_carrot_on_a_stick.png^[transformR270
 mcl_mobitems:warped_fungus_on_a_stick wield mcl_mobitems_warped_fungus_on_a_stick.png^[transformR270
+mcl_sus_nodes:brush wield mcl_sus_nodes_brush.png^[transformR270
 
 
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
@@ -230,8 +231,11 @@ mcl_beehives:beehive_4 top mcl_beehives_beehive_top.png
 mcl_beehives:beehive_5 top mcl_beehives_beehive_top.png
 mcl_honey:honey_block all mcl_honey_block_side.png
 
+
 mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
 mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
+
+mcl_pottery_sherds:pot inventory,wield mcl_pottery_decorated_pot.png
 
 
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png

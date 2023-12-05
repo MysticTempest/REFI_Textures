@@ -26,6 +26,11 @@ cd ..
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/default_dirt_alt.png textures/default_mcl_core/soil/default_dirt.png
 
+#--------------------------------------------------
+#: More MC-like, brown/pepper dirt:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/default_dirt_alt2.png textures/default_mcl_core/soil/default_dirt.png
+
 
 #=====================================================
 #: Fuller jungle grass:
@@ -172,6 +177,7 @@ cd ..
 #: Original, non-red netherrack:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_netherrack_alt_old.png textures/mcl_nether/mcl_nether_netherrack.png
+#cp alternate_textures/texture_alts/rib_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png
 
 #--------------------------------------------------
 #: Dark, wine-colored, nether bricks:
@@ -232,7 +238,6 @@ cd ..
 
 
 #===========================================================
-#------------------------------------------------------
 #: Light orange glowstone, and glowstone related items:
 #------------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_glowstone_alt.png textures/mcl_nether/mcl_nether_glowstone.png
@@ -244,6 +249,22 @@ cd ..
 #cp alternate_textures/texture_alts/respawn_anchor_side3_alt.png textures/beds_mcl_beds/respawn_anchor_side3.png
 #cp alternate_textures/texture_alts/respawn_anchor_side4_alt.png textures/beds_mcl_beds/respawn_anchor_side4.png
 #cp alternate_textures/texture_alts/respawn_anchor_top_on_alt.png textures/beds_mcl_beds/respawn_anchor_top_on.png
+
+
+#=====================================================
+#: Brighter, MC-like End Stone:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_end_end_bricks_alt.png textures/mcl_end/mcl_end_end_bricks.png
+#cp alternate_textures/texture_alts/mcl_end_end_stone_alt.png textures/mcl_end/mcl_end_end_stone.png
+#cp alternate_textures/texture_alts/eye_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png
+
+#--------------------------------------------------
+#: More MC-like Purpur Stone:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_end_purpur_block_alt.png textures/mcl_end/mcl_end_purpur_block.png
+#cp alternate_textures/texture_alts/mcl_end_purpur_pillar_alt.png textures/mcl_end/mcl_end_purpur_pillar.png
+#cp alternate_textures/texture_alts/mcl_end_purpur_pillar_top_alt.png textures/mcl_end/mcl_end_purpur_pillar_top.png
+#cp alternate_textures/texture_alts/spire_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png
 
 
 #===========================================================
