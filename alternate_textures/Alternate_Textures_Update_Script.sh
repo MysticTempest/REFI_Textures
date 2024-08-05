@@ -177,7 +177,11 @@ cd ..
 #: Original, non-red netherrack:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_netherrack_alt_old.png textures/mcl_nether/mcl_nether_netherrack.png
+
 #cp alternate_textures/texture_alts/rib_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png
+
+#Alternate diamond, with original nether rack:
+#cp alternate_textures/texture_alts/diamonds/rib_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png 
 
 #--------------------------------------------------
 #: Dark, wine-colored, nether bricks:
@@ -256,7 +260,12 @@ cd ..
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_end_end_bricks_alt.png textures/mcl_end/mcl_end_end_bricks.png
 #cp alternate_textures/texture_alts/mcl_end_end_stone_alt.png textures/mcl_end/mcl_end_end_stone.png
+
 #cp alternate_textures/texture_alts/eye_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png
+
+#Alternate diamond, with alternate end stone:
+#cp alternate_textures/texture_alts/diamonds/eye_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png 
+
 
 #--------------------------------------------------
 #: More MC-like Purpur Stone:
@@ -264,7 +273,53 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_end_purpur_block_alt.png textures/mcl_end/mcl_end_purpur_block.png
 #cp alternate_textures/texture_alts/mcl_end_purpur_pillar_alt.png textures/mcl_end/mcl_end_purpur_pillar.png
 #cp alternate_textures/texture_alts/mcl_end_purpur_pillar_top_alt.png textures/mcl_end/mcl_end_purpur_pillar_top.png
+
 #cp alternate_textures/texture_alts/spire_armor_trim_smithing_template_alt.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png
+
+#Alternate diamond, with alternate purpur:
+#cp alternate_textures/texture_alts/diamonds/spire_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png 
+
+
+#=====================================================
+#: Greener prismarine, and prismarine bricks:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_ocean_prismarine_anim_alt.png textures/mcl_ocean/mcl_ocean_prismarine_anim.png
+#cp alternate_textures/texture_alts/mcl_ocean_prismarine_bricks_alt.png textures/mcl_ocean/mcl_ocean_prismarine_bricks.png
+
+
+#=====================================================
+#: Darker tuff blocks:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_alt.png textures/mcl_deepslate/mcl_deepslate_tuff.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_bricks_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_bricks.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_chiseled_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_chiseled.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_chiseled_bricks_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_chiseled_bricks.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_chiseled_bricks_top_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_chiseled_bricks_top.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_chiseled_top_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_chiseled_top.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tuff_polished_alt.png textures/mcl_deepslate/mcl_deepslate_tuff_polished.png
+
+
+#=====================================================
+#: MC-like emerald item:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_core_emerald_alt.png textures/default_mcl_core/minerals_ores/mcl_core_emerald.png
+
+
+#=============================================================
+#: MC-like diamond item, and re-color for all diamond things:
+#-------------------------------------------------------------
+# full diamond recolor script for default txp textures:
+# ./alternate_textures/texture_alts/diamonds/diamond_alts.sh
+
+
+#Alternate diamond, with alternate end stone:
+#cp alternate_textures/texture_alts/diamonds/eye_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png 
+
+#Alternate diamond, with original nether rack:
+#cp alternate_textures/texture_alts/diamonds/rib_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png 
+
+#Alternate diamond, with alternate purpur:
+#cp alternate_textures/texture_alts/diamonds/spire_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png 
 
 
 #===========================================================

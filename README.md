@@ -42,7 +42,7 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, Mi
     * vines  
     * xdecor
 *	Some templates for character skin creation.
-*	Some Minetest menu textures.
+*	Some Minetest menu textures. (Main menu, and dark/light GUI themes.)
 *	Support for a few Minetest Game mods.  
     * 3d_armor  
     * bakedclay  
@@ -58,7 +58,8 @@ The 'textures' sub-folder now holds the supported textures for Minetest Game, Mi
     * shop  
     * simple_robots  
     * stamina  
-    * thirsty
+    * thirsty  
+    * crafting_bench  
 *	Miscellaneous Goodies.
 *	Alternate textures moved to their own folder.
 
