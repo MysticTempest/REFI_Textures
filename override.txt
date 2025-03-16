@@ -244,6 +244,9 @@ mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
 
 mcl_pottery_sherds:pot inventory,wield mcl_pottery_decorated_pot.png
 
+mcl_mangrove:water_logged_roots top,bottom default_water_source_animated.png^[opacity:191\^mcl_mangrove_roots_top.png
+mcl_mangrove:water_logged_roots sides default_water_source_animated.png^[opacity:191\^mcl_mangrove_roots_side.png
+
 
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
 mcl_ocean:kelp_sand all default_sand.png^sea_decor_node_grass.png
@@ -253,7 +256,6 @@ mcl_ocean:seagrass_sand all default_sand.png^sea_decor_node_grass.png
 
 mcl_campfires:campfire inventory mcl_campfires_unlit_campfire_inv.png
 mcl_campfires:soul_campfire inventory mcl_campfires_unlit_campfire_inv.png
-
 
 mcl_cartography_table:cartography_table top mcl_cartography_table_top.png
 mcl_cartography_table:cartography_table front mcl_cartography_table_front.png
@@ -278,9 +280,11 @@ mcl_loom:loom bottom mcl_loom_bottom.png
 mcl_nether:netherite_upgrade_template inventory,wield mcl_armor_trim_netherite_upgrade.png
 
 
-# Override fixes for MCL2 version 0.81
+# Override fixes for MCL*
 mcl_itemframes:item_frame inventory,wield mcl_itemframes_item_frame_inv.png
 mcl_itemframes:glow_item_frame inventory,wield mcl_itemframes_glow_item_frame_inv.png
+mcl_itemframes:frame inventory,wield mcl_itemframes_item_frame_inv.png
+mcl_itemframes:glow_frame inventory,wield mcl_itemframes_glow_item_frame_inv.png
 
 
 mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
