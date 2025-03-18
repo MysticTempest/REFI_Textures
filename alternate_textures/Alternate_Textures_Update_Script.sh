@@ -308,7 +308,7 @@ cd ..
 #=============================================================
 #: MC-like diamond item, and re-color for all diamond things:
 #-------------------------------------------------------------
-# full diamond recolor script for default txp textures:
+# Full diamond recolor script for default txp textures:
 # ./alternate_textures/texture_alts/diamonds/diamond_alts.sh
 
 
@@ -320,6 +320,13 @@ cd ..
 
 #Alternate diamond, with alternate purpur:
 #cp alternate_textures/texture_alts/diamonds/spire_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png 
+
+
+#=============================================================
+#: Basic Materials with outlines:
+#-------------------------------------------------------------
+# Full 'basic_materials script for newer, outline-based textures:
+# ./alternate_textures/texture_alts/basic_materials/basic_mats.sh
 
 
 #===========================================================
