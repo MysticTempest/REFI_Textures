@@ -148,6 +148,9 @@ mcl_core:water_flowing special1,special2,special3,special4,special5,special6 def
 mclx_core:river_water_source all default_river_water_source_animated.png^[opacity:179\^[verticalframe:80
 mclx_core:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:179\^[verticalframe:64
 
+# Fix ugly, overbright redstone ore.
+mcl_core:stone_with_redstone_lit all mcl_core_redstone_ore_lit.png
+
 
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
 
@@ -470,6 +473,12 @@ mobs_mc:enderdragon wield,inventory mobs_mc_spawn_icon_dragon.png
 mobs_mc:wither wield,inventory mobs_mc_spawn_icon_wither.png
 mobs_mc:glow_squid wield,inventory extra_mobs_spawn_icon_glow_squid.png
 mobs_mc:bee wield,inventory mobs_mc_spawn_icon_bee.png
+mobs_mc:wandering_trader wield,inventory mobs_mc_spawn_icon_wandering_trader.png
+mobs_mc:trader_llama wield,inventory mobs_mc_spawn_icon_wandering_llama.png
+mobs_mc:piglin wield,inventory extra_mobs_spawn_icon_piglin.png
+mobs_mc:piglin_brute wield,inventory extra_mobs_spawn_icon_piglin_brute.png
+mobs_mc:zombified_piglin wield,inventory extra_mobs_spawn_icon_zombified_piglin.png
+mobs_mc:strider wield,inventory extra_mobs_spawn_icon_strider.png
 #-------------------------------------
 # Mineclone2 mob egg textures - END.
 #-------------------------------------

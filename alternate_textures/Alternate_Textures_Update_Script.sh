@@ -329,6 +329,20 @@ cd ..
 # ./alternate_textures/texture_alts/basic_materials/basic_mats.sh
 
 
+#=============================================================
+#: Red, non-crate TNT:
+#-------------------------------------------------------------
+#cp alternate_textures/texture_alts/tnt_top_burning_alt.png textures/tnt_mcl_tnt/tnt_top_burning.png
+#cp alternate_textures/texture_alts/tnt_top_alt.png textures/tnt_mcl_tnt/tnt_top.png
+#cp alternate_textures/texture_alts/tnt_bottom_alt.png textures/tnt_mcl_tnt/tnt_bottom.png
+#cp alternate_textures/texture_alts/tnt_side_alt.png textures/tnt_mcl_tnt/tnt_side.png
+#cp alternate_textures/texture_alts/tnt_top_burning_animated_alt.png textures/tnt_mcl_tnt/tnt_top_burning_animated.png
+#cp alternate_textures/texture_alts/default_tnt_bottom_alt.png textures/tnt_mcl_tnt/default_tnt_bottom.png
+#cp alternate_textures/texture_alts/default_tnt_side_alt.png textures/tnt_mcl_tnt/default_tnt_side.png
+#cp alternate_textures/texture_alts/default_tnt_top_alt.png textures/tnt_mcl_tnt/default_tnt_top.png
+#cp alternate_textures/texture_alts/mcl_minecarts_minecart_tnt_alt.png textures/carts_mcl_minecarts/mcl_minecarts_minecart_tnt.png
+
+
 #===========================================================
 #===========================================================
 #===========================================================
