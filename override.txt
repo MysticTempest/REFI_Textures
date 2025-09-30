@@ -231,6 +231,10 @@ mcl_mobitems:warped_fungus_on_a_stick wield mcl_mobitems_warped_fungus_on_a_stic
 mcl_sus_nodes:brush wield mcl_sus_nodes_brush.png^[transformR270
 
 
+mcl_flowerpots:flower_pot_azalea all mcl_flowerpots_flowerpot_azalea.png
+mcl_flowerpots:flower_pot_azalea_flowering all mcl_flowerpots_flowerpot_azalea_flowering.png
+mcl_flowerpots:flower_pot_propagule all mcl_flowerpots_flowerpot_mangrove_propagule.png
+
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
 
 mcl_beehives:beehive top mcl_beehives_beehive_top.png
@@ -406,6 +410,20 @@ mcl_blackstone:soul_torch_wall all mcl_soultorch_on_floor_animated.png
 #-------------------------------------
 # Mineclone2 torch textures - END.
 #-------------------------------------
+
+
+#----------------------------------------------------
+# Mineclonia palette-colored leaf textures - START.
+#----------------------------------------------------
+mcl_trees:leaves_oak all mcla_desat_leaves_oak.png
+mcl_trees:leaves_dark_oak all mcla_desat_leaves_dark_oak.png
+mcl_trees:leaves_birch all mcla_desat_leaves_birch.png
+mcl_trees:leaves_jungle all mcla_desat_leaves_jungle.png
+mcl_trees:leaves_spruce all mcla_desat_leaves_spruce.png
+#----------------------------------------------------
+# Mineclonia palette-colored leaf textures - END.
+#----------------------------------------------------
+
 
 mesecons_commandblock:commandblock_on all jeija_commandblock_on.png
 mesecons_lightstone:lightstone_off all redstone_lamp_off.png

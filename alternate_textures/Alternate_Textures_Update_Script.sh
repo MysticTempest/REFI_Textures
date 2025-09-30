@@ -343,6 +343,11 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_minecarts_minecart_tnt_alt.png textures/carts_mcl_minecarts/mcl_minecarts_minecart_tnt.png
 
 
+#========================================================
+#: Mineclonia stacksize button - alternate card stack button:
+#--------------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_stacksize_button_alt.png textures/HUD/mcl_stacksize_button.png
+
 #===========================================================
 #===========================================================
 #===========================================================
@@ -357,6 +362,9 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_campfires_soul_campfire_log_lit_old.png textures/mcl_campfires/mcl_campfires_soul_campfire_log_lit.png
 
 #cp alternate_textures/texture_alts/mcl_enchanting_lapis_background_old.png textures/mcl_enchanting/mcl_enchanting_lapis_background.png
+
+#cp alternate_textures/texture_alts/mcl_flowerpots_cactus_old.png textures/flowers_mcl_flowers/mcl_flowerpots_cactus.png
+#cp alternate_textures/texture_alts/mcl_flowerpots_flowerpot_old.png textures/flowers_mcl_flowers/mcl_flowerpots_flowerpot.png
 
 #cp alternate_textures/texture_alts/mcl_heads_creeper_old.png textures/mobs_mc/mcl_heads/mcl_heads_creeper.png
 #cp alternate_textures/texture_alts/mcl_heads_skeleton_old.png textures/mobs_mc/mcl_heads/mcl_heads_skeleton.png
