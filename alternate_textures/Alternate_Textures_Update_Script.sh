@@ -73,9 +73,13 @@ cd ..
 
 
 #=====================================================
-#: More jagged basalt:
+#: More MC-like basalt:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_blackstone_basalt_side_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_side.png
+#cp alternate_textures/texture_alts/mcl_blackstone_basalt_side_polished_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_side_polished.png
+#cp alternate_textures/texture_alts/mcl_blackstone_basalt_smooth_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_smooth.png
+#cp alternate_textures/texture_alts/mcl_blackstone_basalt_top_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_top.png
+#cp alternate_textures/texture_alts/mcl_blackstone_basalt_top_polished_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_top_polished.png
 
 
 #=====================================================
@@ -343,10 +347,46 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_minecarts_minecart_tnt_alt.png textures/carts_mcl_minecarts/mcl_minecarts_minecart_tnt.png
 
 
-#========================================================
+#=============================================================
 #: Mineclonia stacksize button - alternate card stack button:
-#--------------------------------------------------------
+#-------------------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_stacksize_button_alt.png textures/HUD/mcl_stacksize_button.png
+
+
+#=============================================================
+#: MC-like redstone torches:
+#-------------------------------------------------------------
+#cp alternate_textures/texture_alts/redstone_torch_inv_alt.png textures/redstone/mesecons_torch/redstone_torch_inv.png
+#cp alternate_textures/texture_alts/redstone_torch_on_alt.png textures/redstone/mesecons_torch/redstone_torch_on.png
+#cp alternate_textures/texture_alts/redstone_torch_off_alt.png textures/redstone/mesecons_torch/redstone_torch_off.png
+
+
+#===================================================================================
+#: MC-like smoother-textures for hoppers, cauldrons, anvils, & alternate lever item:
+#	Recommended together.
+#-----------------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_hoppers_hopper_inside_alt.png textures/cauldrons_hoppers/mcl_hoppers_hopper_inside.png
+#cp alternate_textures/texture_alts/mcl_hoppers_hopper_outside_alt.png textures/cauldrons_hoppers/mcl_hoppers_hopper_outside.png
+#cp alternate_textures/texture_alts/mcl_hoppers_item_alt.png textures/cauldrons_hoppers/mcl_hoppers_item.png
+#cp alternate_textures/texture_alts/mcl_cauldrons_cauldron_inner_alt.png textures/cauldrons_hoppers/mcl_cauldrons_cauldron_inner.png
+#cp alternate_textures/texture_alts/mcl_cauldrons_cauldron_side_alt.png textures/cauldrons_hoppers/mcl_cauldrons_cauldron_side.png
+#cp alternate_textures/texture_alts/mcl_anvils_anvil_side_alt.png textures/mcl_anvils/mcl_anvils_anvil_side.png
+#cp alternate_textures/texture_alts/redstone_lever_alt.png textures/redstone/mesecons_walllever/redstone_lever.png
+
+
+#======================================================================================================================
+#: Alternate soils: hill-country gravel, more mc-like grass path, less red snow-dirt, and more subtle coarse dirt
+#	Recommended together.
+#----------------------------------------------------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/default_gravel_alt.png textures/default_mcl_core/stone/default_gravel.png
+
+#cp alternate_textures/texture_alts/mcl_core_grass_path_side_alt.png textures/default_mcl_core/soil/mcl_core_grass_path_side.png
+#cp alternate_textures/texture_alts/mcl_core_grass_path_top_alt.png textures/default_mcl_core/soil/mcl_core_grass_path_top.png
+
+#cp alternate_textures/texture_alts/default_snow_side_alt.png textures/default_mcl_core/soil/default_snow_side.png
+#cp alternate_textures/texture_alts/mcl_core_grass_side_snowed_alt.png textures/default_mcl_core/soil/mcl_core_grass_side_snowed.png
+
+#cp alternate_textures/texture_alts/mcl_core_coarse_dirt_alt.png textures/default_mcl_core/soil/mcl_core_coarse_dirt.png
 
 #===========================================================
 #===========================================================
@@ -362,9 +402,6 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_campfires_soul_campfire_log_lit_old.png textures/mcl_campfires/mcl_campfires_soul_campfire_log_lit.png
 
 #cp alternate_textures/texture_alts/mcl_enchanting_lapis_background_old.png textures/mcl_enchanting/mcl_enchanting_lapis_background.png
-
-#cp alternate_textures/texture_alts/mcl_flowerpots_cactus_old.png textures/flowers_mcl_flowers/mcl_flowerpots_cactus.png
-#cp alternate_textures/texture_alts/mcl_flowerpots_flowerpot_old.png textures/flowers_mcl_flowers/mcl_flowerpots_flowerpot.png
 
 #cp alternate_textures/texture_alts/mcl_heads_creeper_old.png textures/mobs_mc/mcl_heads/mcl_heads_creeper.png
 #cp alternate_textures/texture_alts/mcl_heads_skeleton_old.png textures/mobs_mc/mcl_heads/mcl_heads_skeleton.png

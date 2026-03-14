@@ -184,9 +184,46 @@ mcl_beds:bed_yellow_bottom wield,inventory mcl_beds_bed_yellow_inv.png
 
 mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
 
+
+mcl_cauldrons:cauldron_1 top mcl_cauldrons_cauldron_water_top.png
+mcl_cauldrons:cauldron_2 top mcl_cauldrons_cauldron_water_top.png
+mcl_cauldrons:cauldron_3 top mcl_cauldrons_cauldron_water_top.png
+mcl_cauldrons:cauldron_1r top mcl_cauldrons_cauldron_river_water_top.png
+mcl_cauldrons:cauldron_2r top mcl_cauldrons_cauldron_river_water_top.png
+mcl_cauldrons:cauldron_3r top mcl_cauldrons_cauldron_river_water_top.png
+
+
 mcl_compass:lodestone sides lodestone_side.png
 
 mcl_core:apple_gold_enchanted inventory,wield mcl_core_apple_golden_enchanted.png
+
+
+#-----------------------------------------------------------
+# Mineclonia copper bulbs(on/off) powered overlay - START.
+#-----------------------------------------------------------
+mcl_copper:bulb_off_powered all mcl_copper_block_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_exposed_off_powered all mcl_copper_exposed_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_weathered_off_powered all mcl_copper_weathered_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_oxidized_off_powered all mcl_copper_oxidized_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_off_powered_preserved all mcl_copper_block_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_exposed_off_powered_preserved all mcl_copper_exposed_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_weathered_off_powered_preserved all mcl_copper_weathered_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_oxidized_off_powered_preserved all mcl_copper_oxidized_bulb_off.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_on_powered all mcl_copper_block_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_exposed_on_powered all mcl_copper_exposed_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_weathered_on_powered all mcl_copper_weathered_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_oxidized_on_powered all mcl_copper_oxidized_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_on_powered_preserved all mcl_copper_block_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_exposed_on_powered_preserved all mcl_copper_exposed_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_weathered_on_powered_preserved all mcl_copper_weathered_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+mcl_copper:bulb_oxidized_on_powered_preserved all mcl_copper_oxidized_bulb_on.png^mcl_copper_bulb_powered_overlay.png
+#---------------------------------------------------------
+# Mineclonia copper bulbs(on/off) powered overlay - END.
+#---------------------------------------------------------
+
+
+mcl_crimson:crimson_nylium top mcl_nether_netherrack.png^crimson_nylium.png
+mcl_crimson:warped_nylium top mcl_nether_netherrack.png^warped_nylium.png
 
 mcl_crimson:stripped_warped_hyphae top,bottom stripped_warped_top.png
 mcl_crimson:stripped_warped_hyphae sides stripped_warped_side.png
@@ -194,6 +231,7 @@ mcl_crimson:stripped_warped_hyphae_bark all stripped_warped_side.png
 mcl_crimson:stripped_crimson_hyphae top,bottom stripped_crimson_top.png
 mcl_crimson:stripped_crimson_hyphae sides stripped_crimson_side.png
 mcl_crimson:stripped_crimson_hyphae_bark all stripped_crimson_side.png
+
 
 #-------------------------------------------
 # Mineclonia dye texture fixes - START.
@@ -231,10 +269,6 @@ mcl_mobitems:warped_fungus_on_a_stick wield mcl_mobitems_warped_fungus_on_a_stic
 mcl_sus_nodes:brush wield mcl_sus_nodes_brush.png^[transformR270
 
 
-mcl_flowerpots:flower_pot_azalea all mcl_flowerpots_flowerpot_azalea.png
-mcl_flowerpots:flower_pot_azalea_flowering all mcl_flowerpots_flowerpot_azalea_flowering.png
-mcl_flowerpots:flower_pot_propagule all mcl_flowerpots_flowerpot_mangrove_propagule.png
-
 mcl_furnaces:furnace_active front default_furnace_front_active.png^[verticalframe:8
 
 mcl_beehives:beehive top mcl_beehives_beehive_top.png
@@ -245,14 +279,16 @@ mcl_beehives:beehive_4 top mcl_beehives_beehive_top.png
 mcl_beehives:beehive_5 top mcl_beehives_beehive_top.png
 mcl_honey:honey_block all mcl_honey_block_side.png
 
+mcl_hoppers:hopper bottom mcl_hoppers_hopper_bottom.png
+mcl_hoppers:hopper_side bottom mcl_hoppers_hopper_bottom.png
 
 mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
 mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
 
 mcl_pottery_sherds:pot inventory,wield mcl_pottery_decorated_pot.png
 
-mcl_mangrove:water_logged_roots top,bottom default_water_source_animated.png^[opacity:191\^mcl_mangrove_roots_top.png
-mcl_mangrove:water_logged_roots sides default_water_source_animated.png^[opacity:191\^mcl_mangrove_roots_side.png
+mcl_mangrove:water_logged_roots top,bottom default_water_source_animated.png^[opacity:179\^mcl_mangrove_roots_top.png
+mcl_mangrove:water_logged_roots sides default_water_source_animated.png^[opacity:179\^mcl_mangrove_roots_side.png
 
 
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
@@ -284,6 +320,10 @@ mcl_loom:loom back mcl_loom_back.png
 mcl_loom:loom bottom mcl_loom_bottom.png
 
 
+mcl_levelgen:jigsaw_block front mcl_levelgen_jigsaw_block_side_northfront.png
+mcl_levelgen:jigsaw_block left,right,back mcl_levelgen_jigsaw_block_side.png
+
+
 mcl_nether:netherite_upgrade_template inventory,wield mcl_armor_trim_netherite_upgrade.png
 
 
@@ -294,7 +334,36 @@ mcl_itemframes:frame inventory,wield mcl_itemframes_item_frame_inv.png
 mcl_itemframes:glow_frame inventory,wield mcl_itemframes_glow_item_frame_inv.png
 
 
+#-------------------------------------------------
+# Mineclonia MC-like redstone torches - START.
+# Use with alternate_textures script.
+#-------------------------------------------------
+mcl_redstone_torch:redstone_torch_on inventory,wield redstone_torch_inv.png
+mcl_redstone_torch:redstone_torch_on all redstone_torch_on.png
+mcl_redstone_torch:redstone_torch_off all redstone_torch_off.png
+mcl_redstone_torch:redstone_torch_on_wall all redstone_torch_on.png
+mcl_redstone_torch:redstone_torch_off_wall all redstone_torch_off.png
+#-------------------------------------------------
+# Mineclonia MC-like redstone torches - END.
+#-------------------------------------------------
+
+
 mcl_scaffolding:scaffolding_horizontal top mcl_scaffolding_scaffolding_top.png
+
+mcl_trial_spawners:trialspawner top mcl_trialspawner_top.png
+mcl_trial_spawners:trialspawner sides mcl_trialspawner_side.png
+mcl_trial_spawners:trialspawner bottom mcl_trialspawner_bottom.png
+mcl_trial_spawners:trialspawner_on top mcl_trialspawner_top_on.png
+mcl_trial_spawners:trialspawner_on sides mcl_trialspawner_side_on.png
+mcl_trial_spawners:trialspawner_on bottom mcl_trialspawner_bottom.png
+
+mcl_trial_spawners:ominous_trialspawner top mcl_trialspawner_top.png
+mcl_trial_spawners:ominous_trialspawner sides mcl_trialspawner_side_ominous.png
+mcl_trial_spawners:ominous_trialspawner bottom mcl_trialspawner_bottom.png
+mcl_trial_spawners:ominous_trialspawner_on top mcl_trialspawner_top_on.png
+mcl_trial_spawners:ominous_trialspawner_on sides mcl_trialspawner_side_ominous_on.png
+mcl_trial_spawners:ominous_trialspawner_on bottom mcl_trialspawner_bottom.png
+
 
 #--------------------------------------
 # Mineclone2 sign textures - START.
@@ -375,6 +444,13 @@ mcl_signs:standing_sign22_5_bamboo all mcl_bamboo_bamboo_sign.png
 mcl_signs:standing_sign45_bamboo all mcl_bamboo_bamboo_sign.png
 mcl_signs:standing_sign67_5_bamboo all mcl_bamboo_bamboo_sign.png
 
+mcl_signs:wall_sign_pale_oak inventory,wield mcl_signs_inv_pale_oak.png
+mcl_signs:wall_sign_pale_oak all mcl_signs_sign_pale_oak.png
+mcl_signs:standing_sign_pale_oak all mcl_signs_sign_pale_oak.png
+mcl_signs:standing_sign22_5_pale_oak all mcl_signs_sign_pale_oak.png
+mcl_signs:standing_sign45_pale_oak all mcl_signs_sign_pale_oak.png
+mcl_signs:standing_sign67_5_pale_oak all mcl_signs_sign_pale_oak.png
+
 mcl_signs:wall_sign_oak inventory,wield mcl_signs_inv_wood.png
 mcl_signs:wall_sign_acacia inventory,wield mcl_signs_inv_acacia.png
 mcl_signs:wall_sign_birch inventory,wield mcl_signs_inv_birch.png
@@ -430,7 +506,7 @@ mesecons_lightstone:lightstone_off all redstone_lamp_off.png
 mesecons_lightstone:lightstone_on all redstone_lamp_on.png
 mesecons_walllever:wall_lever_on inventory,wield jeija_wall_lever_inv.png
 mesecons_walllever:wall_lever_off inventory,wield jeija_wall_lever_inv.png
-
+mcl_lever:lever_off inventory,wield redstone_lever.png
 
 #-------------------------------------
 # Mineclone2 mob egg textures - START.
@@ -497,6 +573,8 @@ mobs_mc:piglin wield,inventory extra_mobs_spawn_icon_piglin.png
 mobs_mc:piglin_brute wield,inventory extra_mobs_spawn_icon_piglin_brute.png
 mobs_mc:zombified_piglin wield,inventory extra_mobs_spawn_icon_zombified_piglin.png
 mobs_mc:strider wield,inventory extra_mobs_spawn_icon_strider.png
+mobs_mc:axolotl wield,inventory mobs_mc_spawn_icon_axolotl.png
+mobs_mc:zombie_horse wield,inventory mobs_mc_spawn_icon_horse_zombie.png
 #-------------------------------------
 # Mineclone2 mob egg textures - END.
 #-------------------------------------
