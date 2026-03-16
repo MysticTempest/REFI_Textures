@@ -193,17 +193,11 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_nether_nether_brick_alt.png textures/mcl_nether/mcl_nether_nether_brick.png
 #cp alternate_textures/texture_alts/mcl_nether_chiseled_nether_bricks_alt.png textures/mcl_nether/mcl_nether_chiseled_nether_bricks.png
 #cp alternate_textures/texture_alts/mcl_nether_cracked_nether_bricks_alt.png textures/mcl_nether/mcl_nether_cracked_nether_bricks.png
-#cp alternate_textures/texture_alts/mcl_fences_fence_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_nether_brick.png
-#cp alternate_textures/texture_alts/mcl_fences_fence_gate_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_gate_nether_brick.png
-
 
 #--------------------------------------------------
 #: Blood-red colored, nether bricks:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_red_nether_brick_alt.png textures/mcl_nether/mcl_nether_red_nether_brick.png
-#cp alternate_textures/texture_alts/mcl_fences_fence_red_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_red_nether_brick.png
-#cp alternate_textures/texture_alts/mcl_fences_fence_gate_red_nether_brick_alt.png textures/mcl_fences/mcl_fences_fence_gate_red_nether_brick.png
-
 
 #=====================================================
 #: Polished Deepslate, without lines:
@@ -387,6 +381,13 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_core_grass_side_snowed_alt.png textures/default_mcl_core/soil/mcl_core_grass_side_snowed.png
 
 #cp alternate_textures/texture_alts/mcl_core_coarse_dirt_alt.png textures/default_mcl_core/soil/mcl_core_coarse_dirt.png
+
+
+#======================================================================================================================
+#: Alternate fence post inventory items: double-barred cross shape
+#----------------------------------------------------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_fences_fence_mask_inv_alt.png textures/mcl_fences/mcl_fences_fence_mask_inv.png
+#cp alternate_textures/texture_alts/mcl_fences_fence_outline_overlay_inv_alt.png textures/mcl_fences/mcl_fences_fence_outline_overlay_inv.png
 
 #===========================================================
 #===========================================================

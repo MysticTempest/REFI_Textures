@@ -579,3 +579,254 @@ mobs_mc:zombie_horse wield,inventory mobs_mc_spawn_icon_horse_zombie.png
 # Mineclone2 mob egg textures - END.
 #-------------------------------------
 
+#-------------------------------------------------
+# Mineclonia - Fence Tweaks
+# Inventory
+#-------------------------------------------------
+mcl_fences:acacia_fence inventory,wield default_acacia_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:acacia_fence_gate inventory,wield default_acacia_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:bamboo_fence inventory,wield mcl_bamboo_fence_bamboo.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:bamboo_fence_gate inventory,wield mcl_bamboo_fence_bamboo.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:birch_fence inventory,wield mcl_core_planks_birch.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:birch_fence_gate inventory,wield mcl_core_planks_birch.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:cherry_blossom_fence inventory,wield mcl_cherry_blossom_planks.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:cherry_blossom_fence_gate inventory,wield mcl_cherry_blossom_planks.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:crimson_fence inventory,wield crimson_hyphae_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:crimson_fence_gate inventory,wield crimson_hyphae_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_crimson:crimson_fence inventory,wield crimson_hyphae_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_crimson:crimson_fence_gate inventory,wield crimson_hyphae_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:dark_oak_fence inventory,wield mcl_core_planks_big_oak.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:60)
+mcl_fences:dark_oak_fence_gate inventory,wield mcl_core_planks_big_oak.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:60)
+mcl_fences:jungle_fence inventory,wield default_junglewood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:jungle_fence_gate inventory,wield default_junglewood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:mangrove_fence inventory,wield mcl_mangrove_planks.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:60)
+mcl_fences:mangrove_fence_gate inventory,wield mcl_mangrove_planks.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:60)
+mcl_mangrove:mangrove_wood_fence inventory,wield mcl_mangrove_planks.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:60)
+mcl_mangrove:mangrove_wood_fence_gate inventory,wield mcl_mangrove_planks.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:60)
+mcl_fences:oak_fence inventory,wield default_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:160)
+mcl_fences:oak_fence_gate inventory,wield default_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:160)
+mcl_fences:fence inventory,wield default_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:160)
+mcl_fences:fence_gate inventory,wield default_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:160)
+mcl_fences:pale_oak_fence inventory,wield mcl_pale_oak_planks.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:pale_oak_fence_gate inventory,wield mcl_pale_oak_planks.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:spruce_fence inventory,wield mcl_core_planks_spruce.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:spruce_fence_gate inventory,wield mcl_core_planks_spruce.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:warped_fence inventory,wield warped_hyphae_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_fences:warped_fence_gate inventory,wield warped_hyphae_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_crimson:warped_fence inventory,wield warped_hyphae_wood.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:127)
+mcl_crimson:warped_fence_gate inventory,wield warped_hyphae_wood.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:127)
+mcl_fences:nether_brick_fence inventory,wield mcl_nether_nether_brick.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:50)
+mcl_fences:nether_brick_fence_gate inventory,wield mcl_nether_nether_brick.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:50)
+mclx_fences:nether_brick_fence_gate inventory,wield mcl_nether_nether_brick.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:50)
+mcl_fences:red_nether_brick_fence inventory,wield mcl_nether_red_nether_brick.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:50)
+mcl_fences:red_nether_brick_fence_gate inventory,wield mcl_nether_red_nether_brick.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:50)
+mclx_fences:red_nether_brick_fence inventory,wield mcl_nether_red_nether_brick.png^mcl_fences_fence_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_outline_overlay_inv.png^[opacity:50)
+mclx_fences:red_nether_brick_fence_gate inventory,wield mcl_nether_red_nether_brick.png^mcl_fences_fence_gate_mask_inv.png^[makealpha:255,126,126^(mcl_fences_fence_gate_outline_overlay_inv.png^[opacity:50)
+#-------------------------------------------------
+# Mineclonia - Fence Tweaks
+# Tops
+#-------------------------------------------------
+mcl_fences:acacia_fence top,bottom default_acacia_wood.png
+mcl_fences:acacia_fence_gate top,bottom default_acacia_wood.png
+mcl_fences:acacia_fence_gate_open top,bottom default_acacia_wood.png
+mcl_fences:bamboo_fence top,bottom mcl_bamboo_fence_bamboo.png
+mcl_fences:bamboo_fence_gate top,bottom mcl_bamboo_fence_bamboo.png
+mcl_fences:bamboo_fence_gate_open top,bottom mcl_bamboo_fence_bamboo.png
+mcl_fences:birch_fence top,bottom mcl_core_planks_birch.png
+mcl_fences:birch_fence_gate top,bottom mcl_core_planks_birch.png
+mcl_fences:birch_fence_gate_open top,bottom mcl_core_planks_birch.png
+mcl_fences:cherry_blossom_fence top,bottom mcl_cherry_blossom_planks.png
+mcl_fences:cherry_blossom_fence_gate top,bottom mcl_cherry_blossom_planks.png
+mcl_fences:cherry_blossom_fence_gate_open top,bottom mcl_cherry_blossom_planks.png
+mcl_crimson:crimson_fence top,bottom crimson_hyphae_wood.png
+mcl_crimson:crimson_fence_gate top,bottom crimson_hyphae_wood.png
+mcl_crimson:crimson_fence_gate_open top,bottom crimson_hyphae_wood.png
+mcl_fences:dark_oak_fence top,bottom mcl_core_planks_big_oak.png
+mcl_fences:dark_oak_fence_gate top,bottom mcl_core_planks_big_oak.png
+mcl_fences:dark_oak_fence_gate_open top,bottom mcl_core_planks_big_oak.png
+mcl_fences:jungle_fence top,bottom default_junglewood.png
+mcl_fences:jungle_fence_gate top,bottom default_junglewood.png
+mcl_fences:jungle_fence_gate_open top,bottom default_junglewood.png
+mcl_mangrove:mangrove_wood_fence top,bottom mcl_mangrove_planks.png
+mcl_mangrove:mangrove_wood_fence_gate top,bottom mcl_mangrove_planks.png
+mcl_mangrove:mangrove_wood_fence_gate_open top,bottom mcl_mangrove_planks.png
+mcl_fences:fence top,bottom default_wood.png
+mcl_fences:fence_gate top,bottom default_wood.png
+mcl_fences:fence_gate_open top,bottom default_wood.png
+mcl_fences:pale_oak_fence top,bottom mcl_pale_oak_planks.png
+mcl_fences:pale_oak_fence_gate top,bottom mcl_pale_oak_planks.png
+mcl_fences:pale_oak_fence_gate_open top,bottom mcl_pale_oak_planks.png
+mcl_fences:spruce_fence top,bottom mcl_core_planks_spruce.png
+mcl_fences:spruce_fence_gate top,bottom mcl_core_planks_spruce.png
+mcl_fences:spruce_fence_gate_open top,bottom mcl_core_planks_spruce.png
+mcl_crimson:warped_fence top,bottom warped_hyphae_wood.png
+mcl_crimson:warped_fence_gate top,bottom warped_hyphae_wood.png
+mcl_crimson:warped_fence_gate_open top,bottom warped_hyphae_wood.png
+mcl_fences:nether_brick_fence top,bottom mcl_nether_nether_brick.png
+mclx_fences:nether_brick_fence_gate top,bottom mcl_nether_nether_brick.png
+mclx_fences:nether_brick_fence_gate_open top,bottom mcl_nether_nether_brick.png
+mclx_fences:red_nether_brick_fence top,bottom mcl_nether_red_nether_brick.png
+mclx_fences:red_nether_brick_fence_gate top,bottom mcl_nether_red_nether_brick.png
+mclx_fences:red_nether_brick_fence_gate_open top,bottom mcl_nether_red_nether_brick.png
+#-----------------------------------------------------------------------------------
+# Mineclonia - Fence Tweaks
+# Sides with artifcial shading.
+#
+# 	Note: 
+#	Makes use of MCLA's 'mcl_aliases' mod to cover MCL2 fences up to v0.81, and
+#	Mineclonia's current fences. Using legacy fence names for certain fences.
+#
+#	Left/Right, & Front/Back are used to balance the shading of side faces. 
+#	As there seems to be a bug where the East/West faces are shaded 
+#	darker than the North/South faces, and the 'sides' value doesn't fix this.
+#
+# - START.
+#-----------------------------------------------------------------------------------
+mcl_fences:acacia_fence left,right default_acacia_wood.png^[contrast:6:-18
+mcl_fences:acacia_fence_gate left,right default_acacia_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:acacia_fence_gate_open left,right default_acacia_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:bamboo_fence left,right mcl_bamboo_fence_bamboo.png^[contrast:6:-18
+mcl_fences:bamboo_fence_gate left,right mcl_bamboo_fence_bamboo.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:bamboo_fence_gate_open left,right mcl_bamboo_fence_bamboo.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:birch_fence left,right mcl_core_planks_birch.png^[contrast:6:-18
+mcl_fences:birch_fence_gate left,right mcl_core_planks_birch.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:birch_fence_gate_open left,right mcl_core_planks_birch.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:cherry_blossom_fence left,right mcl_cherry_blossom_planks.png^[contrast:6:-18
+mcl_fences:cherry_blossom_fence_gate left,right mcl_cherry_blossom_planks.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:cherry_blossom_fence_gate_open left,right mcl_cherry_blossom_planks.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:crimson_fence left,right crimson_hyphae_wood.png^[contrast:6:-18
+mcl_crimson:crimson_fence_gate left,right crimson_hyphae_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:crimson_fence_gate_open left,right crimson_hyphae_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:dark_oak_fence left,right mcl_core_planks_big_oak.png^[contrast:6:-18
+mcl_fences:dark_oak_fence_gate left,right mcl_core_planks_big_oak.png^[contrast:6:-18^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:dark_oak_fence_gate_open left,right mcl_core_planks_big_oak.png^[contrast:6:-18^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:jungle_fence left,right default_junglewood.png^[contrast:6:-18
+mcl_fences:jungle_fence_gate left,right default_junglewood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:jungle_fence_gate_open left,right default_junglewood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_mangrove:mangrove_wood_fence left,right mcl_mangrove_planks.png^[contrast:6:-18
+mcl_mangrove:mangrove_wood_fence_gate left,right mcl_mangrove_planks.png^[contrast:6:-18^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_mangrove:mangrove_wood_fence_gate_open left,right mcl_mangrove_planks.png^[contrast:6:-18^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:fence left,right default_wood.png^[contrast:6:-18
+mcl_fences:fence_gate left,right default_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:fence_gate_open left,right default_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:pale_oak_fence left,right mcl_pale_oak_planks.png^[contrast:6:-18
+mcl_fences:pale_oak_fence_gate left,right mcl_pale_oak_planks.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:pale_oak_fence_gate_open left,right mcl_pale_oak_planks.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:spruce_fence left,right mcl_core_planks_spruce.png^[contrast:6:-18
+mcl_fences:spruce_fence_gate left,right mcl_core_planks_spruce.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:spruce_fence_gate_open left,right mcl_core_planks_spruce.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:warped_fence left,right warped_hyphae_wood.png^[contrast:6:-18
+mcl_crimson:warped_fence_gate left,right warped_hyphae_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:warped_fence_gate_open left,right warped_hyphae_wood.png^[contrast:6:-18^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:nether_brick_fence left,right mcl_nether_nether_brick.png^[contrast:3:-9
+mclx_fences:nether_brick_fence_gate left,right mcl_nether_nether_brick.png^[contrast:3:-9^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:nether_brick_fence_gate_open left,right mcl_nether_nether_brick.png^[contrast:3:-9^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:red_nether_brick_fence left,right mcl_nether_red_nether_brick.png^[contrast:3:-9
+mclx_fences:red_nether_brick_fence_gate left,right mcl_nether_red_nether_brick.png^[contrast:3:-9^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:red_nether_brick_fence_gate_open left,right mcl_nether_red_nether_brick.png^[contrast:3:-9^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+
+mcl_fences:acacia_fence front,back default_acacia_wood.png^[contrast:12:-38
+mcl_fences:acacia_fence_gate front,back default_acacia_wood.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:acacia_fence_gate_open front,back default_acacia_wood.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:bamboo_fence front,back mcl_bamboo_fence_bamboo.png^[contrast:12:-38
+mcl_fences:bamboo_fence_gate front,back mcl_bamboo_fence_bamboo.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:bamboo_fence_gate_open front,back mcl_bamboo_fence_bamboo.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:birch_fence front,back mcl_core_planks_birch.png^[contrast:12:-38
+mcl_fences:birch_fence_gate front,back mcl_core_planks_birch.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:birch_fence_gate_open front,back mcl_core_planks_birch.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:cherry_blossom_fence front,back mcl_cherry_blossom_planks.png^[contrast:12:-38
+mcl_fences:cherry_blossom_fence_gate front,back mcl_cherry_blossom_planks.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:cherry_blossom_fence_gate_open front,back mcl_cherry_blossom_planks.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:crimson_fence front,back crimson_hyphae_wood.png^[contrast:12:-38
+mcl_crimson:crimson_fence_gate front,back crimson_hyphae_wood.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:crimson_fence_gate_open front,back crimson_hyphae_wood.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:dark_oak_fence front,back mcl_core_planks_big_oak.png^[contrast:12:-38
+mcl_fences:dark_oak_fence_gate front,back mcl_core_planks_big_oak.png^[contrast:10:-32^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:dark_oak_fence_gate_open front,back mcl_core_planks_big_oak.png^[contrast:12:-38^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:jungle_fence front,back default_junglewood.png^[contrast:12:-38
+mcl_fences:jungle_fence_gate front,back default_junglewood.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:jungle_fence_gate_open front,back default_junglewood.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_mangrove:mangrove_wood_fence front,back mcl_mangrove_planks.png^[contrast:12:-38
+mcl_mangrove:mangrove_wood_fence_gate front,back mcl_mangrove_planks.png^[contrast:10:-32^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_mangrove:mangrove_wood_fence_gate_open front,back mcl_mangrove_planks.png^[contrast:12:-38^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mcl_fences:fence front,back default_wood.png^[contrast:12:-38
+mcl_fences:fence_gate front,back default_wood.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:fence_gate_open front,back default_wood.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:pale_oak_fence front,back mcl_pale_oak_planks.png^[contrast:12:-38
+mcl_fences:pale_oak_fence_gate front,back mcl_pale_oak_planks.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:pale_oak_fence_gate_open front,back mcl_pale_oak_planks.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:spruce_fence front,back mcl_core_planks_spruce.png^[contrast:12:-38
+mcl_fences:spruce_fence_gate front,back mcl_core_planks_spruce.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:spruce_fence_gate_open front,back mcl_core_planks_spruce.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:warped_fence front,back warped_hyphae_wood.png^[contrast:12:-38
+mcl_crimson:warped_fence_gate front,back warped_hyphae_wood.png^[contrast:10:-32^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_crimson:warped_fence_gate_open front,back warped_hyphae_wood.png^[contrast:12:-38^mcl_fences_fence_gatecenter_shadowmask.png
+mcl_fences:nether_brick_fence front,back mcl_nether_nether_brick.png^[contrast:6:-19
+mclx_fences:nether_brick_fence_gate front,back mcl_nether_nether_brick.png^[contrast:6:-19^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:nether_brick_fence_gate_open front,back mcl_nether_nether_brick.png^[contrast:6:-19^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:red_nether_brick_fence front,back mcl_nether_red_nether_brick.png^[contrast:6:-19
+mclx_fences:red_nether_brick_fence_gate front,back mcl_nether_red_nether_brick.png^[contrast:6:-19^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+mclx_fences:red_nether_brick_fence_gate_open front,back mcl_nether_red_nether_brick.png^[contrast:6:-19^(mcl_fences_fence_gatecenter_shadowmask.png^mcl_fences_fence_gatecenter_shadowmask.png)
+#-------------------------------------------------------------------------------
+# Mineclonia - Fence sides with artifical shading.
+# - END.
+#-------------------------------------------------------------------------------
+#------------------------------------------------------------------------------------------------
+# Undo Mineclonia Fence Tweaks: artifical shading: - START
+#------------------------------------------------------------------------------------------------
+# 1. Delete, or comment out the "Mineclonia - Fence Tweaks: Sides with artifical shading." sections above.
+#
+# 2. In the "Mineclonia - Fence Tweaks: Inventory" section; delete everything following the 'makealpha' 
+#	 section of each line.
+#
+# 	 Example: Delete what the X's represent.
+#	 	^[makealpha:255,126,126XXXXXXXXXX
+#
+#
+# 3. Then uncomment the following lines.
+#------------------------------------------------------------------------------------------------
+#mcl_fences:acacia_fence sides default_acacia_wood.png
+#mcl_fences:acacia_fence_gate sides default_acacia_wood.png
+#mcl_fences:acacia_fence_gate_open sides default_acacia_wood.png
+#mcl_fences:bamboo_fence sides mcl_bamboo_fence_bamboo.png
+#mcl_fences:bamboo_fence_gate sides mcl_bamboo_fence_bamboo.png
+#mcl_fences:bamboo_fence_gate_open sides mcl_bamboo_fence_bamboo.png
+#mcl_fences:birch_fence sides mcl_core_planks_birch.png
+#mcl_fences:birch_fence_gate sides mcl_core_planks_birch.png
+#mcl_fences:birch_fence_gate_open sides mcl_core_planks_birch.png
+#mcl_fences:cherry_blossom_fence sides mcl_cherry_blossom_planks.png
+#mcl_fences:cherry_blossom_fence_gate sides mcl_cherry_blossom_planks.png
+#mcl_fences:cherry_blossom_fence_gate_open sides mcl_cherry_blossom_planks.png
+#mcl_crimson:crimson_fence sides crimson_hyphae_wood.png
+#mcl_crimson:crimson_fence_gate sides crimson_hyphae_wood.png
+#mcl_crimson:crimson_fence_gate_open sides crimson_hyphae_wood.png
+#mcl_fences:dark_oak_fence sides mcl_core_planks_big_oak.png
+#mcl_fences:dark_oak_fence_gate sides mcl_core_planks_big_oak.png
+#mcl_fences:dark_oak_fence_gate_open sides mcl_core_planks_big_oak.png
+#mcl_fences:jungle_fence sides default_junglewood.png
+#mcl_fences:jungle_fence_gate sides default_junglewood.png
+#mcl_fences:jungle_fence_gate_open sides default_junglewood.png
+#mcl_mangrove:mangrove_wood_fence sides mcl_mangrove_planks.png
+#mcl_mangrove:mangrove_wood_fence_gate sides mcl_mangrove_planks.png
+#mcl_mangrove:mangrove_wood_fence_gate_open sides mcl_mangrove_planks.png
+#mcl_fences:fence sides default_wood.png
+#mcl_fences:fence_gate sides default_wood.png
+#mcl_fences:fence_gate_open sides default_wood.png
+#mcl_fences:pale_oak_fence sides mcl_pale_oak_planks.png
+#mcl_fences:pale_oak_fence_gate sides mcl_pale_oak_planks.png
+#mcl_fences:pale_oak_fence_gate_open sides mcl_pale_oak_planks.png
+#mcl_fences:spruce_fence sides mcl_core_planks_spruce.png
+#mcl_fences:spruce_fence_gate sides mcl_core_planks_spruce.png
+#mcl_fences:spruce_fence_gate_open sides mcl_core_planks_spruce.png
+#mcl_crimson:warped_fence sides warped_hyphae_wood.png
+#mcl_crimson:warped_fence_gate sides warped_hyphae_wood.png
+#mcl_crimson:warped_fence_gate_open sides warped_hyphae_wood.png
+#mcl_fences:nether_brick_fence sides mcl_nether_nether_brick.png
+#mclx_fences:nether_brick_fence_gate sides mcl_nether_nether_brick.png
+#mclx_fences:nether_brick_fence_gate_open sides mcl_nether_nether_brick.png
+#mclx_fences:red_nether_brick_fence sides mcl_nether_red_nether_brick.png
+#mclx_fences:red_nether_brick_fence_gate sides mcl_nether_red_nether_brick.png
+#mclx_fences:red_nether_brick_fence_gate_open sides mcl_nether_red_nether_brick.png
+#----------------------------------------------------------------------
+# Undo Mineclonia Fence Tweaks: artifical shading: - END
+#----------------------------------------------------------------------
