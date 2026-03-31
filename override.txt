@@ -58,6 +58,11 @@ mesecons_movestones:sticky_movestone_vertical left jeija_sticky_movestone.png^[t
 mesecons_movestones:sticky_movestone_vertical back jeija_sticky_movestone.png^[transformFXR90
 mesecons_movestones:sticky_movestone_vertical front jeija_sticky_movestone.png^[transformR90
 
+mesecons_receiver:receiver_off all mesecons_wire_off.png
+mesecons_receiver:receiver_on all mesecons_wire_on.png
+
+mesecons_extrawires:mese_powered all mesecons_block_powered.png
+
 
 nether:lava_crust inventory nether_lava_crust_inventory.png
 
@@ -150,6 +155,7 @@ mclx_core:river_water_flowing special1,special2,special3,special4,special5,speci
 
 # Fix ugly, overbright redstone ore.
 mcl_core:stone_with_redstone_lit all mcl_core_redstone_ore_lit.png
+mcl_deepslate:deepslate_with_redstone_lit all mcl_deepslate_redstone_ore_lit.png
 
 
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
@@ -261,6 +267,9 @@ mcl_dyes:white inventory,wield mcl_dye_white.png
 # Mineclonia dye texture fixes - END.
 #-------------------------------------------
 
+
+mcl_end:dragon_egg sides mcl_end_dragon_egg_side.png
+mcl_end:dragon_egg top,bottom mcl_end_dragon_egg.png
 
 # Fix MineClone2 wieldview breakage.
 mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
@@ -830,3 +839,83 @@ mclx_fences:red_nether_brick_fence_gate_open front,back mcl_nether_red_nether_br
 #----------------------------------------------------------------------
 # Undo Mineclonia Fence Tweaks: artifical shading: - END
 #----------------------------------------------------------------------
+
+#------------------------------------------------------------------------------------------------------------------------
+# Mineclonia P. Plate/Button overlay shading - START
+#-----------------------------------------------------
+# Mineclonia PressurePlate Overlay:
+# Optional shading overlay for increased visibility.
+#
+# Disabled by default, uncomment to enable.
+#-------------------------------------------
+#mcl_pressureplates:pressure_plate_stone_off top default_stone.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_stone_on top default_stone.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_light_off top mcl_pp_gold_light_off.png
+#mcl_pressureplates:pressure_plate_light_on top mcl_pp_gold_light_on.png
+#mcl_pressureplates:pressure_plate_heavy_off top mcl_pp_iron_heavy_off.png
+#mcl_pressureplates:pressure_plate_heavy_on top mcl_pp_iron_heavy_on.png
+#mcl_pressureplates:pressure_plate_polished_blackstone_off top mcl_blackstone_polished.png^(mcl_pressure_plate_off_overlay.png^[opacity:25)
+#mcl_pressureplates:pressure_plate_polished_blackstone_on top mcl_pp_blackstone_polished_on.png
+
+#mcl_pressureplates:pressure_plate_acacia_off top default_acacia_wood.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_acacia_on top default_acacia_wood.png^(mcl_pressure_plate_on_overlay.png^[opacity:140)
+#mcl_pressureplates:pressure_plate_bamboo_off top mcl_bamboo_bamboo_plank.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_bamboo_on top mcl_bamboo_bamboo_plank.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_birch_off top mcl_core_planks_birch.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_birch_on top mcl_core_planks_birch.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_cherry_blossom_off top mcl_cherry_blossom_planks.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_cherry_blossom_on top mcl_cherry_blossom_planks.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_crimson_off top crimson_hyphae_wood.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_crimson_on top crimson_hyphae_wood.png^(mcl_pressure_plate_on_overlay.png^[opacity:140)
+#mcl_pressureplates:pressure_plate_dark_oak_off top mcl_core_planks_big_oak.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_dark_oak_on top mcl_core_planks_big_oak.png^(mcl_pressure_plate_on_overlay.png^[opacity:255)
+#mcl_pressureplates:pressure_plate_jungle_off top default_junglewood.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_jungle_on top default_junglewood.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_mangrove_off top mcl_mangrove_planks.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_mangrove_on top mcl_mangrove_planks.png^(mcl_pressure_plate_on_overlay.png^[opacity:160)
+#mcl_pressureplates:pressure_plate_oak_off top default_wood.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_oak_on top default_wood.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_pale_oak_off top mcl_pale_oak_planks.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_pale_oak_on top mcl_pale_oak_planks.png^(mcl_pressure_plate_on_overlay.png^[opacity:90)
+#mcl_pressureplates:pressure_plate_spruce_off top mcl_core_planks_spruce.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_spruce_on top mcl_core_planks_spruce.png^(mcl_pressure_plate_on_overlay.png^[opacity:140)
+#mcl_pressureplates:pressure_plate_warped_off top warped_hyphae_wood.png^(mcl_pressure_plate_off_overlay.png^[opacity:30)
+#mcl_pressureplates:pressure_plate_warped_on top warped_hyphae_wood.png^(mcl_pressure_plate_on_overlay.png^[opacity:140)
+
+#-------------------------------------------
+# Mineclonia Button Overlay:
+# Optional shading overlay for increased visibility.
+#
+# Disabled by default, uncomment to enable.
+#-------------------------------------------
+#mcl_buttons:button_stone_off top default_stone.png^(mcl_button_off_overlay.png^[opacity:140)
+#mcl_buttons:button_stone_on top default_stone.png^(mcl_button_on_overlay.png^[opacity:90)
+#mcl_buttons:button_polished_blackstone_off top mcl_blackstone_polished.png^(mcl_button_off_overlay.png^[opacity:55)
+#mcl_buttons:button_polished_blackstone_on top mcl_blackstone_polished.png^(mcl_button_on_overlay.png^[opacity:120)
+
+#mcl_buttons:button_acacia_off top default_acacia_wood.png^(mcl_button_off_overlay.png^[opacity:100)
+#mcl_buttons:button_acacia_on top default_acacia_wood.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_bamboo_off top mcl_bamboo_bamboo_plank.png^(mcl_button_off_overlay.png^[opacity:140)
+#mcl_buttons:button_bamboo_on top mcl_bamboo_bamboo_plank.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_birch_off top mcl_core_planks_birch.png^(mcl_button_off_overlay.png^[opacity:100)
+#mcl_buttons:button_birch_on top mcl_core_planks_birch.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_cherry_blossom_off top mcl_cherry_blossom_planks.png^(mcl_button_off_overlay.png^[opacity:120)
+#mcl_buttons:button_cherry_blossom_on top mcl_cherry_blossom_planks.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_crimson_off top crimson_hyphae_wood.png^(mcl_button_off_overlay.png^[opacity:80)
+#mcl_buttons:button_crimson_on top crimson_hyphae_wood.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_dark_oak_off top mcl_core_planks_big_oak.png^(mcl_button_off_overlay.png^[opacity:80)
+#mcl_buttons:button_dark_oak_on top mcl_core_planks_big_oak.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_jungle_off top default_junglewood.png^(mcl_button_off_overlay.png^[opacity:140)
+#mcl_buttons:button_jungle_on top default_junglewood.png^(mcl_button_on_overlay.png^[opacity:130)
+#mcl_buttons:button_mangrove_off top mcl_mangrove_planks.png^(mcl_button_off_overlay.png^[opacity:80)
+#mcl_buttons:button_mangrove_on top mcl_mangrove_planks.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_oak_off top default_wood.png^(mcl_button_off_overlay.png^[opacity:120)
+#mcl_buttons:button_oak_on top default_wood.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_pale_oak_off top mcl_pale_oak_planks.png^(mcl_button_off_overlay.png^[opacity:180)
+#mcl_buttons:button_pale_oak_on top mcl_pale_oak_planks.png^(mcl_button_on_overlay.png^[opacity:120)
+#mcl_buttons:button_spruce_off top mcl_core_planks_spruce.png^(mcl_button_off_overlay.png^[opacity:100)
+#mcl_buttons:button_spruce_on top mcl_core_planks_spruce.png^(mcl_button_on_overlay.png^[opacity:140)
+#mcl_buttons:button_warped_off top warped_hyphae_wood.png^(mcl_button_off_overlay.png^[opacity:100)
+#------------------------------------------------------------------------------------------------------------------------
+# Mineclonia P. Plate/Button overlay shading - END
+#------------------------------------------------------------------------------------------------------------------------

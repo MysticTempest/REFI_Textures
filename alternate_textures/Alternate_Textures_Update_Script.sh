@@ -40,13 +40,15 @@ cd ..
 
 #=====================================================
 #: Classic Grey Iron ore:
+# (Excludes the high-vis ores script; which can be run separately)
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/default_mineral_iron_alt_classicGrey.png textures/default_mcl_core/minerals_ores/default_mineral_iron.png
 #cp alternate_textures/texture_alts/mcl_core_iron_ore_alt_classicGrey.png textures/default_mcl_core/minerals_ores/mcl_core_iron_ore.png
+#cp alternate_textures/texture_alts/mcl_deepslate_iron_ore_alt_classicGrey.png textures/mcl_deepslate/mcl_deepslate_iron_ore.png
 
 
 #=====================================================
-# Torches with better wood grain:
+#: Torches with better wood grain:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/default_torch_on_floor_alt.png textures/default_mcl_core/default_torch_on_floor.png
 #cp alternate_textures/texture_alts/default_torch_on_floor_animated_alt.png textures/default_mcl_core/default_torch_on_floor_animated.png
@@ -73,7 +75,7 @@ cd ..
 
 
 #=====================================================
-#: More MC-like basalt:
+#: MC-like basalt:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_blackstone_basalt_side_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_side.png
 #cp alternate_textures/texture_alts/mcl_blackstone_basalt_side_polished_alt.png textures/mcl_blackstone/mcl_blackstone_basalt_side_polished.png
@@ -114,12 +116,6 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_core_granite_alt.png textures/default_mcl_core/stone/mcl_core_granite.png
 #cp alternate_textures/texture_alts/mcl_core_granite_smooth_alt.png textures/default_mcl_core/stone/mcl_core_granite_smooth.png
 #cp alternate_textures/texture_alts/mcl_stairs_granite_smooth_slab_alt.png textures/default_mcl_core/stone/mcl_stairs_granite_smooth_slab.png
-
-
-#=====================================================
-#: Slightly ligher Birch leaves:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/mcl_core_leaves_birch_alt.png textures/default_mcl_core/trees/mcl_core_leaves_birch.png
 
 
 #=====================================================
@@ -195,14 +191,14 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_nether_cracked_nether_bricks_alt.png textures/mcl_nether/mcl_nether_cracked_nether_bricks.png
 
 #--------------------------------------------------
-#: Blood-red colored, nether bricks:
+#: Blood-red colored, red nether bricks:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_red_nether_brick_alt.png textures/mcl_nether/mcl_nether_red_nether_brick.png
 
 #=====================================================
 #: Polished Deepslate, without lines:
 #--------------------------------------------------
-#cp alternate_textures/texture_alts/mcl_polished_deepslate_alt.png textures/mcl_deepslate/mcl_polished_deepslate.png
+#cp alternate_textures/texture_alts/mcl_polished_deepslate_alt.png textures/mcl_deepslate/mcl_deepslate_polished.png
 
 
 #=====================================================
@@ -304,7 +300,8 @@ cd ..
 
 
 #=============================================================
-#: MC-like diamond item, and re-color for all diamond things:
+#: MC-like diamond item, and re-color for all diamond things(greenish):
+# (Excludes the high-vis ores script; which can be run separately)
 #-------------------------------------------------------------
 # Full diamond recolor script for default txp textures:
 # ./alternate_textures/texture_alts/diamonds/diamond_alts.sh
@@ -369,7 +366,7 @@ cd ..
 
 
 #======================================================================================================================
-#: Alternate soils: hill-country gravel, more mc-like grass path, less red snow-dirt, and more subtle coarse dirt
+#: Alternate soils: Hill-country gravel, more mc-like grass path, less red snow-dirt, and more subtle coarse dirt.
 #	Recommended together.
 #----------------------------------------------------------------------------------------------------------------------
 #cp alternate_textures/texture_alts/default_gravel_alt.png textures/default_mcl_core/stone/default_gravel.png
@@ -389,7 +386,67 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_fences_fence_mask_inv_alt.png textures/mcl_fences/mcl_fences_fence_mask_inv.png
 #cp alternate_textures/texture_alts/mcl_fences_fence_outline_overlay_inv_alt.png textures/mcl_fences/mcl_fences_fence_outline_overlay_inv.png
 
-#===========================================================
+
+#=============================================================
+#: Higher saturation Magenta:
+#-------------------------------------------------------------
+# Full magenta recolor script for the txp textures:
+# ./alternate_textures/texture_alts/magenta/magenta_alts.sh
+
+
+#=============================================================
+#: Classic mcl totem of undying texture:
+#-------------------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_totems_totem_old.png textures/mobs_mc/mcl_totems_totem.png
+
+
+#=====================================================
+#: Original, Purple Lapis:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_core_lapis_old.png textures/default_mcl_core/minerals_ores/mcl_core_lapis.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_ore_old.png textures/default_mcl_core/minerals_ores/mcl_core_lapis_ore.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_block_old.png textures/default_mcl_core/minerals_ores/mcl_core_lapis_block.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_old.png mcimport_mods/lapis/lapis_lapislazuli.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_block_old.png mcimport_mods/lapis/lapis_lapislazuliblock.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_ore_old.png mcimport_mods/lapis/lapis_mineral_lapislazuli.png
+#cp alternate_textures/texture_alts/mcl_deepslate_lapis_ore_old.png textures/mcl_deepslate/mcl_deepslate_lapis_ore.png
+#cp alternate_textures/texture_alts/mcl_core_lapis_block_old.png textures/stairs_mcl_stairs_mcl_walls/mcl_stairs_lapis_block_slab.png
+
+
+#=====================================================
+#: MC-like Deepslate:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_deepslate_alt.png textures/mcl_deepslate/mcl_deepslate.png
+#cp alternate_textures/texture_alts/mcl_deepslate_top_alt.png textures/mcl_deepslate/mcl_deepslate_top.png
+#cp alternate_textures/texture_alts/mcl_deepslate_bricks_cracked_alt.png textures/mcl_deepslate/mcl_deepslate_bricks_cracked.png
+#cp alternate_textures/texture_alts/mcl_deepslate_bricks_alt.png textures/mcl_deepslate/mcl_deepslate_bricks.png
+#cp alternate_textures/texture_alts/mcl_deepslate_chiseled_alt.png textures/mcl_deepslate/mcl_deepslate_chiseled.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tiles_alt.png textures/mcl_deepslate/mcl_deepslate_tiles.png
+#cp alternate_textures/texture_alts/mcl_deepslate_tiles_cracked_alt.png textures/mcl_deepslate/mcl_deepslate_tiles_cracked.png
+
+# alt brick variant:
+#cp alternate_textures/texture_alts/mcl_deepslate_bricks_cracked_alt2.png textures/mcl_deepslate/mcl_deepslate_bricks_cracked.png
+#cp alternate_textures/texture_alts/mcl_deepslate_bricks_alt2.png textures/mcl_deepslate/mcl_deepslate_bricks.png
+
+
+#=========================================================================
+#: High-Visibility Ores:
+#-------------------------------------------------------------------------
+# Note: Inside the 'high_vis_ores.sh' scipt are optional
+#	variants for Diamond, and Iron.
+#
+# Diamond defaults to Blue; edit the script for Greenish Diamonds.
+# Iron defaults to Pink; edit the script for Classic Grey Iron.
+#
+# Remember to comment out the original versions if swapping to the variants.
+#
+#-------------------------------------------------------------------------
+# Script for the high-vis ores:
+# ./alternate_textures/texture_alts/high_vis_ores/high_vis_ore_alts.sh
+
+
+
+
 #===========================================================
 #===========================================================
 #--------------------------------------------------
