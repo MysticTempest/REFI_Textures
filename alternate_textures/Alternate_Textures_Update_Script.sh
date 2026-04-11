@@ -8,6 +8,15 @@
 cd ..
 
 #===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#------------------
+# Minetest Game:
+# START -
+#------------------
+
+
+#===================================================================================================================================
 #: Original Conifeorus Litter:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/default_coniferous_litter_alt.png textures/default_mcl_core/soil/default_coniferous_litter.png
@@ -22,20 +31,94 @@ cd ..
 
 
 #=====================================================
-#: Original, darker brown dirt:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/default_dirt_alt.png textures/default_mcl_core/soil/default_dirt.png
-
-#--------------------------------------------------
-#: More MC-like, brown/pepper dirt:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/default_dirt_alt2.png textures/default_mcl_core/soil/default_dirt.png
-
-
-#=====================================================
 #: Fuller jungle grass:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/default_junglegrass_alt.png textures/default_mcl_core/plants/default_junglegrass.png
+
+
+#----------------------------
+# Minetest Game:
+# END -
+#----------------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#------------------
+# Skyfactory mods:
+# START -
+#------------------
+
+
+#=====================================================
+#: Smaller, steel-colored protector logo:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/protector_logo_alt.png skyfactory/protector/protector_logo.png
+
+#--------------------------------------------------
+#: Smaller, copper-colored protector logo:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/protector_logo_alt_copper.png skyfactory/protector/protector_logo.png
+
+#--------------------------------------------------
+#: Smaller, gold-colored protector logo:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/protector_logo_alt_gold.png skyfactory/protector/protector_logo.png
+
+
+#===========================================================
+#: Bread icons for Stamina HUD:
+#------------------------------------------------------
+#cp alternate_textures/texture_alts/stamina_hud_bg_alt.png minetest_game_mods/stamina/stamina_hud_bg.png
+#cp alternate_textures/texture_alts/stamina_hud_fg_alt.png minetest_game_mods/stamina/stamina_hud_fg.png
+#cp alternate_textures/texture_alts/stamina_hud_poison_alt.png minetest_game_mods/stamina/stamina_hud_poison.png
+
+
+#------------------
+# Skyfactory mods:
+# END -
+#------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#------------------
+# Mcimport mods:
+# START -
+#------------------
+
+
+#=============================================================
+#: Basic Materials with outlines:
+#-------------------------------------------------------------
+# Full 'basic_materials script for newer, outline-based textures:
+# ./alternate_textures/texture_alts/basic_materials/basic_mats.sh
+
+
+#------------------
+# Mcimport mods:
+# END -
+#------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#------------------
+# MTG/MCLA shared:
+# START -
+#------------------
+
+
+#=====================================================
+#: Original, classic greenish dirt:
+#--------------------------------------------------
+#cp alternate_textures/texture_alts/default_dirt_classicGreen.png textures/default_mcl_core/soil/default_dirt.png
+
+
+#======================================================================================================================
+#: Alternate soil: Hill-country gravel, normal colored snow-dirt.
+#----------------------------------------------------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/default_gravel_alt.png textures/default_mcl_core/stone/default_gravel.png
+
+#cp alternate_textures/texture_alts/default_snow_side_alt.png textures/default_mcl_core/soil/default_snow_side.png
+#cp alternate_textures/texture_alts/mcl_core_grass_side_snowed_alt.png textures/default_mcl_core/soil/mcl_core_grass_side_snowed.png
 
 
 #=====================================================
@@ -72,6 +155,88 @@ cd ..
 #: Smaller, rounder fire:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/fire_basic_flame_animated_alt.png textures/fire_mcl_fire/fire_basic_flame_animated.png
+
+
+#=============================================================
+#: Red, non-crate TNT:
+#-------------------------------------------------------------
+#cp alternate_textures/texture_alts/tnt_top_burning_alt.png textures/tnt_mcl_tnt/tnt_top_burning.png
+#cp alternate_textures/texture_alts/tnt_top_alt.png textures/tnt_mcl_tnt/tnt_top.png
+#cp alternate_textures/texture_alts/tnt_bottom_alt.png textures/tnt_mcl_tnt/tnt_bottom.png
+#cp alternate_textures/texture_alts/tnt_side_alt.png textures/tnt_mcl_tnt/tnt_side.png
+#cp alternate_textures/texture_alts/tnt_top_burning_animated_alt.png textures/tnt_mcl_tnt/tnt_top_burning_animated.png
+#cp alternate_textures/texture_alts/default_tnt_bottom_alt.png textures/tnt_mcl_tnt/default_tnt_bottom.png
+#cp alternate_textures/texture_alts/default_tnt_side_alt.png textures/tnt_mcl_tnt/default_tnt_side.png
+#cp alternate_textures/texture_alts/default_tnt_top_alt.png textures/tnt_mcl_tnt/default_tnt_top.png
+#cp alternate_textures/texture_alts/mcl_minecarts_minecart_tnt_alt.png textures/carts_mcl_minecarts/mcl_minecarts_minecart_tnt.png
+
+
+#=============================================================
+#: MC-like diamond item, and re-color for all diamond things(greenish):
+# (Excludes the high-vis ores script; which can be run separately)
+#-------------------------------------------------------------
+# Full diamond recolor script for default txp textures:
+# ./alternate_textures/texture_alts/diamonds/diamond_alts.sh
+
+
+#Alternate diamond, with alternate end stone:
+#cp alternate_textures/texture_alts/diamonds/eye_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png 
+
+#Alternate diamond, with original nether rack:
+#cp alternate_textures/texture_alts/diamonds/rib_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png 
+
+#Alternate diamond, with alternate purpur:
+#cp alternate_textures/texture_alts/diamonds/spire_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png 
+
+
+#=========================================================================
+#: High-Visibility Dyes:
+#-------------------------------------------------------------------------
+# Note: Through override file; currently applies to MTG as well.
+#
+#-------------------------------------------------------------------------
+# Script for the high-vis dyes:
+# ./alternate_textures/texture_alts/high_vis_dyes/high_vis_dye_alts.sh
+
+
+#=========================================================================
+#: High-Visibility Ores:
+#-------------------------------------------------------------------------
+# Note: Inside the 'high_vis_ores.sh' scipt are optional
+#	variants for Diamond, and Iron.
+#
+# Diamond defaults to Blue; edit the script for Greenish Diamonds.
+# Iron defaults to Pink; edit the script for Classic Grey Iron.
+#
+# Remember to comment out the original versions if swapping to the variants.
+#
+#-------------------------------------------------------------------------
+# Script for the high-vis ores:
+# ./alternate_textures/texture_alts/high_vis_ores/high_vis_ore_alts.sh
+
+
+
+#=========================================================================
+#: Old Moss textures:
+#-------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/default_moss_old.png textures/default_mcl_core/soil/default_moss.png
+#cp alternate_textures/texture_alts/default_moss_side_old.png textures/default_mcl_core/soil/default_moss_side.png
+#cp alternate_textures/texture_alts/mcl_lush_caves_moss_block_old.png textures/mcl_lush_caves/mcl_lush_caves_moss_block.png
+#cp alternate_textures/texture_alts/mcl_lush_caves_moss_carpet_old.png textures/mcl_lush_caves/mcl_lush_caves_moss_carpet.png
+#cp alternate_textures/texture_alts/mcl_pale_oak_moss_old.png textures/mcl_pale_oak/mcl_pale_oak_moss.png
+
+
+#------------------
+# MTG/MCLA shared:
+# END -
+#------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#------------------
+# Mineclonia:
+# START -
+#------------------
 
 
 #=====================================================
@@ -136,28 +301,9 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_flowers_azure_bluet_alt.png textures/flowers_mcl_flowers/mcl_flowers_azure_bluet.png
 
 #--------------------------------------------------
-#: Magenta lilac flower :
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/mcl_flowers_double_plant_syringa_bottom_alt.png textures/flowers_mcl_flowers/mcl_flowers_double_plant_syringa_bottom.png
-#cp alternate_textures/texture_alts/mcl_flowers_double_plant_syringa_top_alt.png textures/flowers_mcl_flowers/mcl_flowers_double_plant_syringa_top.png
-
-#--------------------------------------------------
 #: Brighter white, more yellow Daisy flower:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_flowers_oxeye_daisy_alt.png textures/flowers_mcl_flowers/mcl_flowers_oxeye_daisy.png
-
-
-#=====================================================
-#: Prettier mangrove leaves:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/mcl_mangrove_leaves_alt.png textures/mcl_wild_update/mcl_mangrove_leaves.png
-
-
-#=====================================================
-#: Darker mangrove roots:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/mcl_mangrove_roots_side_alt.png textures/mcl_wild_update/mcl_mangrove_roots_side.png
-#cp alternate_textures/texture_alts/mcl_mangrove_roots_top_alt.png textures/mcl_wild_update/mcl_mangrove_roots_top.png
 
 
 #=====================================================
@@ -195,44 +341,11 @@ cd ..
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_nether_red_nether_brick_alt.png textures/mcl_nether/mcl_nether_red_nether_brick.png
 
+
 #=====================================================
 #: Polished Deepslate, without lines:
 #--------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_polished_deepslate_alt.png textures/mcl_deepslate/mcl_deepslate_polished.png
-
-
-#=====================================================
-#: Smaller, steel-colored protector logo:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/protector_logo_alt.png skyfactory/protector/protector_logo.png
-
-#--------------------------------------------------
-#: Smaller, copper-colored protector logo:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/protector_logo_alt_copper.png skyfactory/protector/protector_logo.png
-
-#--------------------------------------------------
-#: Smaller, gold-colored protector logo:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/protector_logo_alt_gold.png skyfactory/protector/protector_logo.png
-
-
-#=====================================================
-#: Smoker, with lighter wood grain:
-#--------------------------------------------------
-#cp alternate_textures/texture_alts/smoker_front_alt.png textures/blast_furnace_smoker/smoker_front.png
-#cp alternate_textures/texture_alts/smoker_front_on_alt.png textures/blast_furnace_smoker/smoker_front_on.png
-#cp alternate_textures/texture_alts/smoker_front_open_alt.png textures/blast_furnace_smoker/smoker_front_open.png
-#cp alternate_textures/texture_alts/smoker_side_alt.png textures/blast_furnace_smoker/smoker_side.png
-#cp alternate_textures/texture_alts/smoker_top_alt.png textures/blast_furnace_smoker/smoker_top.png
-
-
-#===========================================================
-#: Bread icons for Stamina HUD:
-#------------------------------------------------------
-#cp alternate_textures/texture_alts/stamina_hud_bg_alt.png minetest_game_mods/stamina/stamina_hud_bg.png
-#cp alternate_textures/texture_alts/stamina_hud_fg_alt.png minetest_game_mods/stamina/stamina_hud_fg.png
-#cp alternate_textures/texture_alts/stamina_hud_poison_alt.png minetest_game_mods/stamina/stamina_hud_poison.png
 
 
 #===========================================================
@@ -300,45 +413,6 @@ cd ..
 
 
 #=============================================================
-#: MC-like diamond item, and re-color for all diamond things(greenish):
-# (Excludes the high-vis ores script; which can be run separately)
-#-------------------------------------------------------------
-# Full diamond recolor script for default txp textures:
-# ./alternate_textures/texture_alts/diamonds/diamond_alts.sh
-
-
-#Alternate diamond, with alternate end stone:
-#cp alternate_textures/texture_alts/diamonds/eye_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/eye_armor_trim_smithing_template.png 
-
-#Alternate diamond, with original nether rack:
-#cp alternate_textures/texture_alts/diamonds/rib_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/rib_armor_trim_smithing_template.png 
-
-#Alternate diamond, with alternate purpur:
-#cp alternate_textures/texture_alts/diamonds/spire_armor_trim_smithing_template_alt2.png textures/mcl_armor/mcl_armor_trims/spire_armor_trim_smithing_template.png 
-
-
-#=============================================================
-#: Basic Materials with outlines:
-#-------------------------------------------------------------
-# Full 'basic_materials script for newer, outline-based textures:
-# ./alternate_textures/texture_alts/basic_materials/basic_mats.sh
-
-
-#=============================================================
-#: Red, non-crate TNT:
-#-------------------------------------------------------------
-#cp alternate_textures/texture_alts/tnt_top_burning_alt.png textures/tnt_mcl_tnt/tnt_top_burning.png
-#cp alternate_textures/texture_alts/tnt_top_alt.png textures/tnt_mcl_tnt/tnt_top.png
-#cp alternate_textures/texture_alts/tnt_bottom_alt.png textures/tnt_mcl_tnt/tnt_bottom.png
-#cp alternate_textures/texture_alts/tnt_side_alt.png textures/tnt_mcl_tnt/tnt_side.png
-#cp alternate_textures/texture_alts/tnt_top_burning_animated_alt.png textures/tnt_mcl_tnt/tnt_top_burning_animated.png
-#cp alternate_textures/texture_alts/default_tnt_bottom_alt.png textures/tnt_mcl_tnt/default_tnt_bottom.png
-#cp alternate_textures/texture_alts/default_tnt_side_alt.png textures/tnt_mcl_tnt/default_tnt_side.png
-#cp alternate_textures/texture_alts/default_tnt_top_alt.png textures/tnt_mcl_tnt/default_tnt_top.png
-#cp alternate_textures/texture_alts/mcl_minecarts_minecart_tnt_alt.png textures/carts_mcl_minecarts/mcl_minecarts_minecart_tnt.png
-
-
-#=============================================================
 #: Mineclonia stacksize button - alternate card stack button:
 #-------------------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_stacksize_button_alt.png textures/HUD/mcl_stacksize_button.png
@@ -366,32 +440,10 @@ cd ..
 
 
 #======================================================================================================================
-#: Alternate soils: Hill-country gravel, more mc-like grass path, less red snow-dirt, and more subtle coarse dirt.
-#	Recommended together.
-#----------------------------------------------------------------------------------------------------------------------
-#cp alternate_textures/texture_alts/default_gravel_alt.png textures/default_mcl_core/stone/default_gravel.png
-
-#cp alternate_textures/texture_alts/mcl_core_grass_path_side_alt.png textures/default_mcl_core/soil/mcl_core_grass_path_side.png
-#cp alternate_textures/texture_alts/mcl_core_grass_path_top_alt.png textures/default_mcl_core/soil/mcl_core_grass_path_top.png
-
-#cp alternate_textures/texture_alts/default_snow_side_alt.png textures/default_mcl_core/soil/default_snow_side.png
-#cp alternate_textures/texture_alts/mcl_core_grass_side_snowed_alt.png textures/default_mcl_core/soil/mcl_core_grass_side_snowed.png
-
-#cp alternate_textures/texture_alts/mcl_core_coarse_dirt_alt.png textures/default_mcl_core/soil/mcl_core_coarse_dirt.png
-
-
-#======================================================================================================================
 #: Alternate fence post inventory items: double-barred cross shape
 #----------------------------------------------------------------------------------------------------------------------
 #cp alternate_textures/texture_alts/mcl_fences_fence_mask_inv_alt.png textures/mcl_fences/mcl_fences_fence_mask_inv.png
 #cp alternate_textures/texture_alts/mcl_fences_fence_outline_overlay_inv_alt.png textures/mcl_fences/mcl_fences_fence_outline_overlay_inv.png
-
-
-#=============================================================
-#: Higher saturation Magenta:
-#-------------------------------------------------------------
-# Full magenta recolor script for the txp textures:
-# ./alternate_textures/texture_alts/magenta/magenta_alts.sh
 
 
 #=============================================================
@@ -429,26 +481,32 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_deepslate_bricks_alt2.png textures/mcl_deepslate/mcl_deepslate_bricks.png
 
 
-#=========================================================================
-#: High-Visibility Ores:
-#-------------------------------------------------------------------------
-# Note: Inside the 'high_vis_ores.sh' scipt are optional
-#	variants for Diamond, and Iron.
-#
-# Diamond defaults to Blue; edit the script for Greenish Diamonds.
-# Iron defaults to Pink; edit the script for Classic Grey Iron.
-#
-# Remember to comment out the original versions if swapping to the variants.
-#
-#-------------------------------------------------------------------------
-# Script for the high-vis ores:
-# ./alternate_textures/texture_alts/high_vis_ores/high_vis_ore_alts.sh
+#==================================================================================
+#: More mc-like PaleGarden(high contrast leaves, darker moss and palegarden grass):
+#----------------------------------------------------------------------------------
+#cp alternate_textures/texture_alts/mcl_core_palette_grass_alt.png textures/default_mcl_core/soil/mcl_core_palette_grass.png
+#cp alternate_textures/texture_alts/mcl_core_palette_grass_levelgen_alt.png textures/default_mcl_core/soil/mcl_core_palette_grass_levelgen.png
+#cp alternate_textures/texture_alts/mcl_pale_oak_log_alt.png textures/mcl_pale_oak/mcl_pale_oak_log.png
+#cp alternate_textures/texture_alts/mcl_pale_oak_moss_alt.png textures/mcl_pale_oak/mcl_pale_oak_moss.png
+#cp alternate_textures/texture_alts/mcl_pale_oak_leaves_alt.png textures/mcl_pale_oak/mcl_pale_oak_leaves.png
+
+#even higher contrast leaves
+#cp alternate_textures/texture_alts/mcl_pale_oak_leaves_ExtraContrast_alt.png textures/mcl_pale_oak/mcl_pale_oak_leaves.png
 
 
+#------------------
+# Mineclonia:
+# END -
+#------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
+#----------------------------
+# Legacy MCL2 (unsupported):
+# START -
+#----------------------------
 
 
-#===========================================================
-#===========================================================
 #--------------------------------------------------
 #: Backup images for non-Mineclonia, Mcl* games:
 #	Fixes model & formspec changes.
@@ -468,6 +526,11 @@ cd ..
 #cp alternate_textures/texture_alts/mcl_heads_zombie_old.png textures/mobs_mc/mcl_heads/mcl_heads_zombie.png
 
 
-
-#===================================================================================================================================#
+#----------------------------
+# Legacy MCL2 (unsupported):
+# END -
+#----------------------------
+#===================================================================================================================================
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#===================================================================================================================================
 

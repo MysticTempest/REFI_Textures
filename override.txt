@@ -1,6 +1,9 @@
+#==================================================================================================
 #----------------------------------------------------------------
 # Minetest Game
 #----------------------------------------------------------------
+#==================================================================================================
+
 carts:cart inventory,wield carts_cart_wield.png
 
 
@@ -9,6 +12,23 @@ default:water_source all default_water_source_animated.png^[opacity:191\^[vertic
 default:water_flowing special1,special2,special3,special4,special5,special6 default_water_flowing_animated.png^[opacity:191\^[verticalframe:16
 default:river_water_source all default_river_water_source_animated.png^[opacity:160\^[verticalframe:32
 default:river_water_flowing special1,special2,special3,special4,special5,special6 default_river_water_flowing_animated.png^[opacity:160\^[verticalframe:16
+
+
+dye:black inventory,wield mcl_dye_black.png
+dye:blue inventory,wield mcl_dye_blue.png
+dye:brown inventory,wield mcl_dye_brown.png
+dye:cyan inventory,wield mcl_dye_cyan.png
+dye:green inventory,wield mcl_dye_lime.png
+dye:dark_green inventory,wield mcl_dye_dark_green.png
+dye:grey inventory,wield mcl_dye_grey.png
+dye:dark_grey inventory,wield mcl_dye_dark_grey.png
+dye:magenta inventory,wield mcl_dye_magenta.png
+dye:orange inventory,wield mcl_dye_orange.png
+dye:pink inventory,wield mcl_dye_pink.png
+dye:violet inventory,wield mcl_dye_violet.png
+dye:red inventory,wield mcl_dye_red.png
+dye:yellow inventory,wield mcl_dye_yellow.png
+dye:white inventory,wield mcl_dye_white.png
 
 
 farming:dry_soil all farming_dry_soil.png
@@ -24,10 +44,10 @@ default:mese_post_light_pine_wood wield,sides mese_post_side_pine.png^[makealpha
 default:mese_post_light wield,sides mese_post_side_oak.png^[makealpha:255,126,126
 
 
-
-#----------------------------------------------------------------
+#==================================================================================================
 # Mcimport Mods
-#----------------------------------------------------------------
+#==================================================================================================
+
 mesecons_detector:object_detector_off top mesecons_switch_side.png
 mesecons_detector:object_detector_off bottom mesecons_switch_side.png
 mesecons_detector:object_detector_on top mesecons_switch_side.png
@@ -69,10 +89,10 @@ nether:lava_crust inventory nether_lava_crust_inventory.png
 xdecor:speaker left,right,back,top,bottom xdecor_speaker_side.png
 xdecor:radio left,right,back,top,bottom xdecor_speaker_side.png
 
-
-#----------------------------------------------------------------
+#==================================================================================================
 # Minetest Game Mods
-#----------------------------------------------------------------
+#==================================================================================================
+
 bees:extractor front bees_extractor.png
 bees:extractor top bees_extractor_front.png^[verticalframe:3]
 bees:hive_artificial left bees_side.png
@@ -91,10 +111,10 @@ crafting_bench:workbench back mcl_crafter_back.png
 
 pipeworks:trashcan top pipeworks_trashcan_top.png
 
-
-#----------------------------------------------------------------
+#==================================================================================================
 # SkyFactory
-#----------------------------------------------------------------
+#==================================================================================================
+
 tinkering:part_builder top tinkering_part_builder_top.png
 tinkering:pattern_table top tinkering_pattern_table_top.png
 tinkering:tool_station top tinkering_tool_station_top.png
@@ -110,42 +130,9 @@ farming:carrot_7 sides farming_carrot_3.png
 farming:carrot_8 sides farming_carrot_4.png
 
 
-
-#----------------------------------------------------------------
-# Mineclonia/Legacy MCL2:
-#----------------------------------------------------------------
-
-#-----------------------------------
-# MineClone2 large chest texture overrides for versions up to 0.70.0
-# For newer versions of MCL2; comment out, or delete this section.
-#
-# Mineclone2 chest textures - START.
-#-----------------------------------
-
-#mcl_chests:chest_left top mcl_chests_big_top_leftside.png
-#mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
-#mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
-#mcl_chests:chest_left right mcl_chests_big_rightside.png
-#mcl_chests:chest_left back mcl_chests_big_back_rightside.png
-#mcl_chests:chest_left front mcl_chests_big_front_leftside.png
-
-#mcl_chests:chest_right top mcl_chests_big_top_leftside.png^[transformFX
-#mcl_chests:chest_right bottom mcl_chests_big_top_leftside.png^[transformFX
-#mcl_chests:chest_right left mcl_chests_big_rightside.png^[transformFX
-#mcl_chests:chest_right right mcl_chests_big_rightside.png
-#mcl_chests:chest_right back mcl_chests_big_back_rightside.png^[transformFX
-#mcl_chests:chest_right front mcl_chests_big_front_rightside.png
-
-
-#mcl_chests:trapped_chest_left back mcl_chests_big_back_rightside.png
-#mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
-
-#mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
-#mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
-#---------------------------------
-# Mineclone2 chest textures - END.
-#---------------------------------
-
+#==================================================================================================
+# Mineclonia:
+#==================================================================================================
 
 # Fixes water opacity issues in v5.4
 mcl_core:water_source all default_water_source_animated.png^[opacity:179\^[verticalframe:80
@@ -161,31 +148,6 @@ mcl_deepslate:deepslate_with_redstone_lit all mcl_deepslate_redstone_ore_lit.png
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
 
 mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
-
-
-#-------------------------------------------
-# Mineclone2 bed inventory textures - START.
-# Override fixes for MCL2 version 0.80
-#-------------------------------------------
-mcl_beds:bed_black_bottom wield,inventory mcl_beds_bed_black_inv.png
-mcl_beds:bed_blue_bottom wield,inventory mcl_beds_bed_blue_inv.png
-mcl_beds:bed_brown_bottom wield,inventory mcl_beds_bed_brown_inv.png
-mcl_beds:bed_cyan_bottom wield,inventory mcl_beds_bed_cyan_inv.png
-mcl_beds:bed_green_bottom wield,inventory mcl_beds_bed_green_inv.png
-mcl_beds:bed_grey_bottom wield,inventory mcl_beds_bed_grey_inv.png
-mcl_beds:bed_light_blue_bottom wield,inventory mcl_beds_bed_light_blue_inv.png
-mcl_beds:bed_lime_bottom wield,inventory mcl_beds_bed_lime_inv.png
-mcl_beds:bed_magenta_bottom wield,inventory mcl_beds_bed_magenta_inv.png
-mcl_beds:bed_orange_bottom wield,inventory mcl_beds_bed_orange_inv.png
-mcl_beds:bed_pink_bottom wield,inventory mcl_beds_bed_pink_inv.png
-mcl_beds:bed_purple_bottom wield,inventory mcl_beds_bed_purple_inv.png
-mcl_beds:bed_red_bottom wield,inventory mcl_beds_bed_red_inv.png
-mcl_beds:bed_silver_bottom wield,inventory mcl_beds_bed_silver_inv.png
-mcl_beds:bed_white_bottom wield,inventory mcl_beds_bed_white_inv.png
-mcl_beds:bed_yellow_bottom wield,inventory mcl_beds_bed_yellow_inv.png
-#-------------------------------------------
-# Mineclone2 bed inventory textures - END.
-#-------------------------------------------
 
 
 mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
@@ -271,7 +233,7 @@ mcl_dyes:white inventory,wield mcl_dye_white.png
 mcl_end:dragon_egg sides mcl_end_dragon_egg_side.png
 mcl_end:dragon_egg top,bottom mcl_end_dragon_egg.png
 
-# Fix MineClone2 wieldview breakage.
+# Fix mineclonia wieldview breakage.
 mcl_fishing:fishing_rod wield mcl_fishing_fishing_rod.png^[transformR270
 mcl_mobitems:carrot_on_a_stick wield mcl_mobitems_carrot_on_a_stick.png^[transformR270
 mcl_mobitems:warped_fungus_on_a_stick wield mcl_mobitems_warped_fungus_on_a_stick.png^[transformR270
@@ -375,8 +337,7 @@ mcl_trial_spawners:ominous_trialspawner_on bottom mcl_trialspawner_bottom.png
 
 
 #--------------------------------------
-# Mineclone2 sign textures - START.
-# Override fixes for MCL2 version 0.80
+# Mineclon* sign textures - START.
 #--------------------------------------
 mcl_signs:wall_sign inventory,wield mcl_signs_inv_wood.png
 mcl_signs:wall_sign_acaciawood inventory,wield mcl_signs_inv_acacia.png
@@ -436,9 +397,6 @@ mcl_signs:standing_sign67_5_sprucewood all mcl_signs_sign_spruce.png
 mcl_signs:standing_sign67_5_crimson_hyphae_wood all mcl_signs_sign_crimson.png
 mcl_signs:standing_sign67_5_warped_hyphae_wood all mcl_signs_sign_warped.png
 
-#-------------------------------------
-# MCLA sign fixes:
-#-------------------------------------
 mcl_signs:wall_sign_cherry_blossom inventory,wield mcl_signs_inv_cherry.png
 mcl_signs:wall_sign_cherry_blossom all mcl_signs_sign_cherry.png
 mcl_signs:standing_sign_cherry_blossom all mcl_signs_sign_cherry.png
@@ -480,20 +438,20 @@ mcl_signs:standing_sign_spruce all mcl_signs_sign_spruce.png
 mcl_signs:standing_sign_crimson all mcl_signs_sign_crimson.png
 mcl_signs:standing_sign_warped all mcl_signs_sign_warped.png
 #-------------------------------------
-# Mineclone2 sign textures - END.
+# Mineclon* sign textures - END.
 #-------------------------------------
 
 
 #--------------------------------------
-# Mineclone2 torch textures - START.
-# Override fixes for MCL2 version 0.80
+# Mineclon* torch textures - START.
+# Hides the MTG flame on top
 #--------------------------------------
 mcl_torches:torch all mcl_torch_on_floor_animated.png
 mcl_torches:torch_wall all mcl_torch_on_floor_animated.png
 mcl_blackstone:soul_torch all mcl_soultorch_on_floor_animated.png
 mcl_blackstone:soul_torch_wall all mcl_soultorch_on_floor_animated.png
 #-------------------------------------
-# Mineclone2 torch textures - END.
+# Mineclon* torch textures - END.
 #-------------------------------------
 
 
@@ -505,6 +463,7 @@ mcl_trees:leaves_dark_oak all mcla_desat_leaves_dark_oak.png
 mcl_trees:leaves_birch all mcla_desat_leaves_birch.png
 mcl_trees:leaves_jungle all mcla_desat_leaves_jungle.png
 mcl_trees:leaves_spruce all mcla_desat_leaves_spruce.png
+mcl_trees:leaves_acacia all mcla_desat_leaves_acacia.png
 #----------------------------------------------------
 # Mineclonia palette-colored leaf textures - END.
 #----------------------------------------------------
@@ -517,10 +476,10 @@ mesecons_walllever:wall_lever_on inventory,wield jeija_wall_lever_inv.png
 mesecons_walllever:wall_lever_off inventory,wield jeija_wall_lever_inv.png
 mcl_lever:lever_off inventory,wield redstone_lever.png
 
-#-------------------------------------
-# Mineclone2 mob egg textures - START.
-# Override fixes for MCL2 version 0.80
-#-------------------------------------
+#-----------------------------------------------------
+# Mineclon* mob egg textures - START.
+# Eggs with icons, disable for blank, colored eggs
+#-----------------------------------------------------
 mobs_mc:bat wield,inventory mobs_mc_spawn_icon_bat.png
 mobs_mc:blaze wield,inventory mobs_mc_spawn_icon_blaze.png
 mobs_mc:cave_spider wield,inventory mobs_mc_spawn_icon_cave_spider.png
@@ -585,7 +544,7 @@ mobs_mc:strider wield,inventory extra_mobs_spawn_icon_strider.png
 mobs_mc:axolotl wield,inventory mobs_mc_spawn_icon_axolotl.png
 mobs_mc:zombie_horse wield,inventory mobs_mc_spawn_icon_horse_zombie.png
 #-------------------------------------
-# Mineclone2 mob egg textures - END.
+# Mineclon* mob egg textures - END.
 #-------------------------------------
 
 #-------------------------------------------------
@@ -919,3 +878,85 @@ mclx_fences:red_nether_brick_fence_gate_open front,back mcl_nether_red_nether_br
 #------------------------------------------------------------------------------------------------------------------------
 # Mineclonia P. Plate/Button overlay shading - END
 #------------------------------------------------------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------------
+# Mineclonia Sticky Piston: sticky sides visual indicator - START
+#
+# Uncomment the following lines for some sticky piston sticky side textures.
+#----------------------------------------------------------------------------------
+#mcl_pistons:piston_sticky_off top mesecons_piston_bottom_sticky.png^[transformR180
+#mcl_pistons:piston_sticky_off bottom mesecons_piston_bottom_sticky.png
+#mcl_pistons:piston_sticky_off right mesecons_piston_bottom_sticky.png^[transformR90
+#mcl_pistons:piston_sticky_off left mesecons_piston_bottom_sticky.png^[transformR270
+
+#mcl_pistons:piston_sticky_on top mesecons_piston_bottom_sticky.png^[transformR180
+#mcl_pistons:piston_sticky_on bottom mesecons_piston_bottom_sticky.png
+#mcl_pistons:piston_sticky_on right mesecons_piston_bottom_sticky.png^[transformR90
+#mcl_pistons:piston_sticky_on left mesecons_piston_bottom_sticky.png^[transformR270
+
+#mcl_pistons:piston_pusher_sticky left,right,top,bottom mesecons_piston_pusher_sticky_side.png
+
+#----------------------------------------------------------------------------------
+# Mineclonia Sticky Piston: sticky sides visual indicator - END
+#----------------------------------------------------------------------------------
+
+
+#==================================================================================================
+# Legacy MCl2 (unsupported):
+#==================================================================================================
+
+#-----------------------------------
+# MineClone2 large chest texture overrides for versions up to 0.70.0
+# For newer versions of MCL2; comment out, or delete this section.
+#
+# Mineclone2 chest textures - START.
+#-----------------------------------
+
+#mcl_chests:chest_left top mcl_chests_big_top_leftside.png
+#mcl_chests:chest_left bottom mcl_chests_big_top_leftside.png
+#mcl_chests:chest_left left mcl_chests_big_rightside.png^[transformFX
+#mcl_chests:chest_left right mcl_chests_big_rightside.png
+#mcl_chests:chest_left back mcl_chests_big_back_rightside.png
+#mcl_chests:chest_left front mcl_chests_big_front_leftside.png
+
+#mcl_chests:chest_right top mcl_chests_big_top_leftside.png^[transformFX
+#mcl_chests:chest_right bottom mcl_chests_big_top_leftside.png^[transformFX
+#mcl_chests:chest_right left mcl_chests_big_rightside.png^[transformFX
+#mcl_chests:chest_right right mcl_chests_big_rightside.png
+#mcl_chests:chest_right back mcl_chests_big_back_rightside.png^[transformFX
+#mcl_chests:chest_right front mcl_chests_big_front_rightside.png
+
+
+#mcl_chests:trapped_chest_left back mcl_chests_big_back_rightside.png
+#mcl_chests:trapped_chest_left front mcl_chests_big_front_leftside.png
+
+#mcl_chests:trapped_chest_right back mcl_chests_big_back_rightside.png^[transformFX
+#mcl_chests:trapped_chest_right front mcl_chests_big_front_rightside.png
+#---------------------------------
+# Mineclone2 chest textures - END.
+#---------------------------------
+
+#-------------------------------------------
+# Mineclone2 bed inventory textures - START.
+# Override fixes for MCL2 version 0.80
+#-------------------------------------------
+mcl_beds:bed_black_bottom wield,inventory mcl_beds_bed_black_inv.png
+mcl_beds:bed_blue_bottom wield,inventory mcl_beds_bed_blue_inv.png
+mcl_beds:bed_brown_bottom wield,inventory mcl_beds_bed_brown_inv.png
+mcl_beds:bed_cyan_bottom wield,inventory mcl_beds_bed_cyan_inv.png
+mcl_beds:bed_green_bottom wield,inventory mcl_beds_bed_green_inv.png
+mcl_beds:bed_grey_bottom wield,inventory mcl_beds_bed_grey_inv.png
+mcl_beds:bed_light_blue_bottom wield,inventory mcl_beds_bed_light_blue_inv.png
+mcl_beds:bed_lime_bottom wield,inventory mcl_beds_bed_lime_inv.png
+mcl_beds:bed_magenta_bottom wield,inventory mcl_beds_bed_magenta_inv.png
+mcl_beds:bed_orange_bottom wield,inventory mcl_beds_bed_orange_inv.png
+mcl_beds:bed_pink_bottom wield,inventory mcl_beds_bed_pink_inv.png
+mcl_beds:bed_purple_bottom wield,inventory mcl_beds_bed_purple_inv.png
+mcl_beds:bed_red_bottom wield,inventory mcl_beds_bed_red_inv.png
+mcl_beds:bed_silver_bottom wield,inventory mcl_beds_bed_silver_inv.png
+mcl_beds:bed_white_bottom wield,inventory mcl_beds_bed_white_inv.png
+mcl_beds:bed_yellow_bottom wield,inventory mcl_beds_bed_yellow_inv.png
+#-------------------------------------------
+# Mineclone2 bed inventory textures - END.
+#-------------------------------------------
+
