@@ -25,12 +25,19 @@ copy dark_theme_mcl_maps_map_background.png textures\HUD\
 ren textures\HUD\dark_theme_minimap_overlay_square.png minimap_overlay_square.png
 ren textures\HUD\dark_theme_mcl_maps_map_background.png mcl_maps_map_background.png
 
+copy dark_theme_mcl_maps_map_background.png textures\mcl_workstations\
+ren textures\mcl_workstations\dark_theme_mcl_maps_map_background.png mcl_cartography_table_map.png
+copy dark_theme_mcl_cartography_table_scaled_map.png textures\mcl_workstations\
+ren textures\mcl_workstations\dark_theme_mcl_cartography_table_scaled_map.png mcl_cartography_table_scaled_map.png
+
 
 copy *.png textures\mcl_inventory\
 del textures\mcl_inventory\dark_theme_ench_ui.png
 del textures\mcl_inventory\dark_theme_mese_layout.png
 del textures\mcl_inventory\dark_theme_gui_formbg.png
 del textures\mcl_inventory\dark_theme_minimap_overlay_square.png
+del textures\mcl_inventory\dark_theme_mcl_maps_map_background.png
+del textures\mcl_inventory\dark_theme_mcl_cartography_table_scaled_map.png
 del textures\mcl_inventory\screenshot_dark.png
 ren textures\mcl_inventory\dark_theme_crafting_creative_active_down.png crafting_creative_active_down.png
 ren textures\mcl_inventory\dark_theme_crafting_creative_active.png crafting_creative_active.png

@@ -147,7 +147,8 @@ mcl_deepslate:deepslate_with_redstone_lit all mcl_deepslate_redstone_ore_lit.png
 
 mcl_barrels:barrel_closed top mcl_barrels_barrel_top.png
 
-mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
+#Replaced by reworked mcl_beacons animated file.
+#mcl_beacons:beacon_beam all mcl_beacons_beam_base.png
 
 
 mcl_blackstone:nether_gold all mcl_nether_netherrack.png^mcl_nether_gold_ore.png
@@ -254,12 +255,27 @@ mcl_hoppers:hopper bottom mcl_hoppers_hopper_bottom.png
 mcl_hoppers:hopper_side bottom mcl_hoppers_hopper_bottom.png
 
 mcl_portals:end_portal_frame back mcl_portals_endframe_back.png
-mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
+# Re-enable when active portal frame has correct param2
+#mcl_portals:end_portal_frame_eye back mcl_portals_endframe_eye_back.png
 
 mcl_pottery_sherds:pot inventory,wield mcl_pottery_decorated_pot.png
 
 mcl_mangrove:water_logged_roots top,bottom default_water_source_animated.png^[opacity:179\^mcl_mangrove_roots_top.png
 mcl_mangrove:water_logged_roots sides default_water_source_animated.png^[opacity:179\^mcl_mangrove_roots_side.png
+
+
+mcl_maps:map_locked inventory,wield mcl_maps_map_filled_locked.png
+mcl_maps:woodland_explorer_map inventory,wield mcl_maps_map_explorer_woodland_item.png
+mcl_maps:ocean_explorer_map inventory,wield mcl_maps_map_explorer_ocean_item.png
+mcl_maps:buried_treasure_map inventory,wield mcl_maps_map_explorer_treasure_item.png
+mcl_maps:jungle_explorer_map inventory,wield mcl_maps_map_explorer_jungle_item.png
+mcl_maps:swamp_explorer_map inventory,wield mcl_maps_map_explorer_swamp_item.png
+mcl_maps:trial_explorer_map inventory,wield mcl_maps_map_explorer_trials_item.png
+mcl_maps:desert_village_map inventory,wield mcl_maps_map_village_desert_item.png
+mcl_maps:plains_village_map inventory,wield mcl_maps_map_village_plains_item.png
+mcl_maps:savannah_village_map inventory,wield mcl_maps_map_village_savanna_item.png
+mcl_maps:snowy_village_map inventory,wield mcl_maps_map_village_snowy_item.png
+mcl_maps:taiga_village_map inventory,wield mcl_maps_map_village_taiga_item.png
 
 
 mcl_ocean:kelp_dirt all default_dirt.png^sea_decor_node_grass.png
@@ -543,6 +559,8 @@ mobs_mc:zombified_piglin wield,inventory extra_mobs_spawn_icon_zombified_piglin.
 mobs_mc:strider wield,inventory extra_mobs_spawn_icon_strider.png
 mobs_mc:axolotl wield,inventory mobs_mc_spawn_icon_axolotl.png
 mobs_mc:zombie_horse wield,inventory mobs_mc_spawn_icon_horse_zombie.png
+mobs_mc:drowned wield,inventory mobs_mc_spawn_icon_drowned.png
+mobs_mc:ravager wield,inventory mobs_mc_spawn_icon_ravager.png
 #-------------------------------------
 # Mineclon* mob egg textures - END.
 #-------------------------------------
